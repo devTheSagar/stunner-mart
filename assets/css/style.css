@@ -2,8 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Alatsi', sans-serif; /* Apply Alatsi globally */
+    font-family: 'Alatsi', sans-serif;
+    /* Apply Alatsi globally */
 }
+
+/* Ensure both sections have a defined height for the overlap to be visible */
+header {
+    position: relative;
+    z-index: 1;
+    /* Makes sure header stays on top */
+    background-color: #fff;
+    /* Optional: background color for clarity */
+    padding: 0;
+    margin-bottom: -10px;
+    /* Pull the section up to create overlap */
+    /* border: 1px solid black; */
+}
+
+.main {
+    position: relative;
+    z-index: 2;
+    margin-top: -150px; /* Optional: pulls the section up to overlap */
+    padding-top: 0; /* Ensure the section isn't hidden behind the header */
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    justify-content: center; /* Vertically centers the content */
+    align-items: center; /* Horizontally centers the content */
+}
+
+/* You can adjust the negative margin based on how much you want the header to overlap */
 
 
 a {
@@ -17,7 +44,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .search-area {
@@ -48,7 +75,8 @@ a {
     color: #f52e26;
     pointer-events: none;
 }
-.static-text span{
+
+.static-text span {
     color: #D8D8D8;
 }
 
@@ -56,6 +84,7 @@ a {
     color: #fdd5d4;
     font-size: 10px;
 }
+
 .search-bar:focus::placeholder {
     color: transparent;
 }
@@ -80,6 +109,7 @@ a {
     height: 30px;
     width: 30px;
 }
+
 .login .down-arrow {
     margin-right: 5px;
     height: 15px;
@@ -109,25 +139,27 @@ a {
 
 
 
-.bg-yellow{
+.bg-yellow {
     background-color: #F7DF2A;
     height: 30px;
 }
-.bg-white{
+
+.bg-white {
     background-color: #fff;
 }
 
-.bg-red{
+.bg-red {
     background-color: #f52e26;
     height: 30px;
 }
 
-.left-round{
+.left-round {
     /* border: 1px solid black; */
     border-top-right-radius: 8px;
     background-color: #fff;
 }
-.right-round{
+
+.right-round {
     /* border: 1px solid black; */
     border-top-left-radius: 8px;
     background-color: #fff;
@@ -157,33 +189,42 @@ a {
     font-size: 12px;
     /* list-style: none; */
 }
+
 .custom-list {
     padding: 0;
     margin: 0;
-    list-style-type: none; /* Remove default list bullets */
+    list-style-type: none;
+    /* Remove default list bullets */
     color: #42413D;
 }
 
 .custom-list li {
     display: flex;
-    align-items: center; /* Vertically center the items */
+    align-items: center;
+    /* Vertically center the items */
     position: relative;
     margin-bottom: 10px;
     font-size: 14px;
 }
 
 .custom-list li::before {
-    content: "\2022"; /* Unicode for bullet point (•) */
+    content: "\2022";
+    /* Unicode for bullet point (•) */
     position: absolute;
-    left: -25px; /* Position it to the left of the text */
+    left: -25px;
+    /* Position it to the left of the text */
     top: 50%;
-    transform: translateY(-50%); /* Center vertically */
-    font-size: 20px; /* Adjust the size of the bullet */
-    color: #42413D; /* Bullet color */
+    transform: translateY(-50%);
+    /* Center vertically */
+    font-size: 20px;
+    /* Adjust the size of the bullet */
+    color: #42413D;
+    /* Bullet color */
 }
 
 .custom-list li:first-child::before {
-    content: ""; /* Remove bullet for the first item */
+    content: "";
+    /* Remove bullet for the first item */
 }
 
 .custom-list li a {
@@ -193,10 +234,10 @@ a {
 
 
 
-.all-categories{
+.all-categories {
     background-color: #f52e26;
     height: 25px;
-    
+
     border: none;
     padding: 5px;
     width: 135px;
@@ -205,7 +246,8 @@ a {
     border-bottom-right-radius: 15px;
     /* border: 1px solid black; */
 }
-.all-categories select{
+
+.all-categories select {
     background-color: #f52e26;
     border: none;
     color: #fff;
@@ -272,54 +314,55 @@ a {
 
 /* Responsive Styles - For Mobile */
 @media (min-width: 1021px) {
-    
-    
+
+
     .search-area {
         max-width: 400px;
     }
-    
+
     .search-bar {
         width: 100%;
         height: 25px;
         font-size: 12px;
     }
-    
+
     .static-text {
         font-size: 12px;
     }
-    
-    
+
+
     .search-bar::placeholder {
         font-size: 9px;
     }
-    
+
     .login {
         margin-left: 6px;
         font-size: 10px;
     }
-    
+
     .login img {
         margin-right: 5px;
         height: 25px;
         width: 25px;
     }
+
     .login .down-arrow {
         margin-right: 5px;
         height: 10px;
         width: 10px;
     }
-    
+
     .cart .down-arrow {
         padding-left: 0px;
         padding-top: 10px;
     }
-    
+
     .cart .cart-img {
         padding-top: 0px;
         max-width: 25px;
         height: auto;
     }
-    
+
     .info-bar {
         background-color: #F7DF2A;
         padding-top: 3px;
@@ -328,62 +371,69 @@ a {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-    
+
     .info-bar li {
         margin: 0 15px;
     }
-    
+
     .custom-list li {
         font-size: 12px;
     }
-    
+
     .custom-list li:first-child::before {
-        content: ""; /* Remove bullet for the first item */
+        content: "";
+        /* Remove bullet for the first item */
     }
-    
+
     .custom-list li a {
         text-decoration: none;
         color: inherit;
     }
-    
-    
-    .all-categories{
+
+
+    .all-categories {
         height: 20px;
         width: 120px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-    .all-categories select{
+
+    .all-categories select {
         background-color: #f52e26;
         border: none;
         color: #fff;
         height: 17px;
         font-size: 10px;
     }
-    
-    
+
+
     .follow-icons ul li a {
         position: absolute;
     }
-    
+
     .follow-icons ul li a.colored {
         top: 10px;
         left: 0;
         z-index: 2;
     }
-    
+
     .follow-icons ul li a.gray {
         top: 10px;
         left: 15px;
         z-index: 1;
     }
-    
+
     .follow-icons ul li img {
         width: 31px;
         height: 31px;
         border-radius: 50%;
     }
-   
+
+    .about-service{
+        margin-top: 15px;
+        width: 417px;
+    }
+
 }
 
 @media (max-width: 1020px) {
@@ -392,25 +442,29 @@ a {
         flex-direction: column;
         height: auto;
     }
-    
+
     .search-area {
         display: flex;
-        justify-content: flex-start; /* Align items to the start */
+        justify-content: flex-start;
+        /* Align items to the start */
         margin-bottom: 5px;
-        width: 170px; 
+        width: 170px;
         border: 1px solid black;
     }
-    
-    .search-bar{
+
+    .search-bar {
         height: 20px;
-        width: 170px; 
+        width: 170px;
     }
-    .static-text{
+
+    .static-text {
         font-size: 7px;
     }
-    .search-bar::placeholder{
+
+    .search-bar::placeholder {
         font-size: 5px;
     }
+
     .login-cart {
         display: flex;
         justify-content: center;
@@ -425,12 +479,13 @@ a {
         width: 100%;
         border: 1px solid black;
     }
-    
+
     .login img {
         margin-right: 1px;
         height: 10px;
         /* width: 10px; */
     }
+
     .login .down-arrow {
         margin-right: 5px;
         height: 5px;
@@ -438,18 +493,19 @@ a {
     }
 
     .cart {
-        font-size: 12px; /* Adjust font size for better readability */
+        font-size: 12px;
+        /* Adjust font size for better readability */
         width: 20px;
         border: 1px solid black;
     }
-    
+
     .cart .down-arrow {
         padding-left: 0px;
         padding-top: 10px;
         height: 5px;
         width: 5px;
     }
-    
+
     .cart .cart-img {
         padding-top: 0px;
         max-width: 15px;
@@ -460,12 +516,12 @@ a {
         font-size: 5px;
     }
 
-    .info-bar{
+    .info-bar {
         height: 5px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         width: 200px;
-        
+
     }
 
     .info-bar ul {
@@ -479,33 +535,40 @@ a {
         margin: 0px 3px;
         /* list-style: none; */
     }
-    
+
     .custom-list li::before {
-        content: ""; /* Remove bullet points in mobile view */
+        content: "";
+        /* Remove bullet points in mobile view */
     }
+
     .all-categories {
         height: 10px;
         width: 70px;
         font-size: 2px;
     }
-    .all-categories select{
+
+    .all-categories select {
         height: 8px;
         font-size: 5px;
     }
-    .left-round{
+
+    .left-round {
         height: 10px;
         width: 2px;
     }
-    .right-round{
+
+    .right-round {
         height: 10px;
         width: 2px;
     }
-    .bg-red{
+
+    .bg-red {
         display: none;
         height: 10px;
         width: 2px;
     }
-    .bg-yellow{
+
+    .bg-yellow {
         display: none;
         height: 10px;
         width: 20px;
@@ -516,40 +579,188 @@ a {
         padding: 0;
         margin: 0;
     } */
-    
+
     .follow-icons ul li {
         position: relative;
         width: 15px;
         height: 15px;
-    
+
         display: flex;
         justify-content: flex-start;
         align-items: center;
         margin-bottom: 5px;
         margin-right: 0px;
     }
-    
+
     .follow-icons ul li a {
         position: absolute;
     }
-    
+
     .follow-icons ul li a.colored {
         top: 1px;
         left: 0;
         z-index: 2;
     }
-    
+
     .follow-icons ul li a.gray {
         top: 1px;
         left: 7px;
         z-index: 1;
     }
-    
+
     .follow-icons ul li img {
         width: 15px;
         height: 15px;
         border-radius: 50%;
     }
+
+    
+    
 }
+
+.banner {
+    /* margin-top: 96px; */
+    /* height: 300px; */
+    width: 67%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.about-service{
+    height: 100px;
+    margin-top: 15px;
+    width: 65%;
+    background-color: #c9c8c8;
+    display: flex;
+    justify-content: center; /* Optional: Align content horizontally */
+    align-items: center; /* Optional: Align content vertically */
+}
+
+.product-section{
+    width: 65%;
+    margin: 0;
+    /* border: 2px solid yellow; */
+    /* object-fit: cover; */
+}
+.product-section-img{
+    object-fit: contain;
+}
+.for-you{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.show-more{
+    /* border: 1px solid red; */
+    justify-content: flex-end; /* Align to the right */
+    /* align-items: end; */
+    margin-right: 0px;
+    text-align: end;
+}
+.show-more div{
+    /* border: 1px solid red; */
+    background-color: #f52e26;
+    width: 100px;
+    color: #FFFF;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.product-div-title{
+    /* border: 1px solid red; */
+    justify-content: flex-start;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.product-div-title div {
+    /* border: 1px solid red; */
+    background-image: url('../img/product-div-title.svg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 30px;
+    width: 200px;
+    text-align: start;
+    margin-bottom: 0px;
+}
+.product-div-title div p{
+    margin-left: 20px;
+}
+
+
+
+
+.product-card img{
+    width: 180px;
+    height: 147px;
+}
+.card-text{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+.card.product-card {
+    width: 200px; /* Set a fixed width for all cards */
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden; /* Ensure content stays within card boundaries */
+    display: inline-block; /* Ensure cards align horizontally */
+    vertical-align: top; /* Align top edges of cards */
+}
+
+.card.product-card .card-img-top {
+    object-fit: cover;
+    height: 150px; /* Fixed height for images */
+    width: 100%;
+}
+
+.card.product-card .price {
+    font-weight: bold;
+    color: rgb(247, 70, 70); /* Set price color */
+    margin-top: 5px;
+}
+.card-body {
+    text-align: left; /* Align text inside the card */
+    padding: 10px; /* Add some padding for better spacing */
+    min-height: 100px; /* Ensure consistent height for card content */
+}
+
+.card-text {
+    font-size: 14px; /* Adjust font size for better fit */
+    white-space: normal; /* Allow text to wrap to new lines */
+    word-wrap: break-word; /* Break long words if needed */
+}
+
+@media (max-width: 1020px){
+    .main{
+        margin-top: -204px;
+    }
+
+    .banner{
+        margin-top: 150px;
+        /* height: 150px; */
+        width: 80%;
+        margin-left: auto; /* Center horizontally */
+        margin-right: auto; /* Center horizontally */
+    }
+
+    .about-service{
+        margin-top: 15px;
+        height: 40px;
+    }
+}
+
+
+
+
+
+
+
 
 
