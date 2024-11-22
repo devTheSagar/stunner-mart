@@ -613,17 +613,35 @@ a {
 
 .product-section{
     width: 65%;
-    margin: 0;
+    margin: 0 auto;  /* Center the container */
+    padding: 0;
     /* border: 2px solid yellow; */
     /* object-fit: cover; */
+}
+.promo-product{
+    width: 220px;
+}
+.promo-product-img{
+    border-radius: 30px;
 }
 .product-section-img{
     object-fit: contain;
 }
 .for-you{
+    overflow-x: hidden;
+    padding: 0px;
+}
+.for-you-heading{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.for-you div{
+    height: auto;
+    width: 180px;
+    display: grid;
+}
+
+
 .show-more{
     /* border: 1px solid red; */
     justify-content: flex-end;
