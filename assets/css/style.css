@@ -426,7 +426,7 @@ a {
         /* Align items to the start */
         margin-bottom: 5px;
         width: 170px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .search-bar {
@@ -447,14 +447,14 @@ a {
         justify-content: center;
         width: 100%;
         font-size: 5px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .login {
         margin-left: 0px;
         font-size: 5px;
         width: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .login img {
@@ -472,7 +472,7 @@ a {
     .cart {
         font-size: 12px;
         width: 20px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .cart .down-arrow {
@@ -628,18 +628,17 @@ a {
     object-fit: contain;
 }
 .for-you{
-    overflow-x: hidden;
-    padding: 0px;
+    width: 180px;
 }
 .for-you-heading{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.for-you div{
+/* .for-you div{
     height: auto;
     width: 180px;
     display: grid;
-}
+} */
 
 
 .show-more{
