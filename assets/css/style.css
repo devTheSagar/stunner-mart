@@ -732,10 +732,52 @@ a {
 }
 
 
+/* footer start  */
+footer{
+    background-color: #F4F4F4;
+}
 
+footer h5{
+    color: #F7DF2A;
+}
+footer ul{
+    padding: 0;
+}
+footer ul li{
+    list-style: none;
+    margin-left: 0;
+    color: #42413D;
+    /* font-size: 14px; */
+    font-weight: 400;
+    /* text-align: justify; */
+    line-height: 20px;
+    padding: 3px;
+    font-family: "Almarai", sans-serif;
+}
+.contact-us ul li{
+    font-weight: 1px;
+}
+.mobile-apps .app-links {
+    display: flex; /* Align child elements horizontally */
+    gap: 10px; /* Space between the ul elements */
+    justify-content: space-between;
+}
 
+.mobile-apps ul {
+    list-style: none; /* Remove bullets */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
 
-
+.mobile-apps ul li {
+    display: inline-block; /* Ensure li contents are inline */
+}
+.social-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* footer end  */
 
 
 
