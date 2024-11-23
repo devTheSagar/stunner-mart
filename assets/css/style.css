@@ -959,13 +959,15 @@ footer ul li{
 
 /* =========================PRIVACY POLICY & TERMS CONDITION START========================== */
 .privacy-policy,
-.terms-condition{
+.terms-condition,
+.return-refund{
     width: 1010px;
     font-family: "Almarai", sans-serif;
     /* font-weight: 700; */
 }
 .privacy-policy .privacy-policy-heading,
-.terms-condition .terms-condition-heading{
+.terms-condition .terms-condition-heading,
+.return-refund .return-refund-heading{
     background-image: url('../img/privacy-policy-heading-img.svg');
     background-size: cover;
     background-position: center;
@@ -974,12 +976,14 @@ footer ul li{
     height: 34px;
 }
 .privacy-policy h5,
-.terms-condition h5{
+.terms-condition h5,
+.return-refund h5{
     font-family: "Almarai", sans-serif;
     font-weight: 700;
 }
 .privacy-policy p,
-.terms-condition p{
+.terms-condition p,
+.return-refund p{
     font-family: "Almarai", sans-serif;
     font-weight: 700;
     margin-top: 5px;
@@ -992,5 +996,13 @@ footer ul li{
     font-weight: 300;
     list-style: none;
     font-size: 14px;
+}
+.return-refund ul li{
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.return-refund .company-info ul li{
+    list-style: none;
 }
 /* =========================PRIVACY POLICY & TERMS CONDITION ENDS========================== */
