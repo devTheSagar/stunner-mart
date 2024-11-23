@@ -812,7 +812,6 @@ footer ul li{
 .signup-area input[type="text"],
 .signup-area input[type="password"],
 .signup-area select,
-
 .signup-area .input-group .input-group-text{
     /* width: 350px; */
     height: 40px;
@@ -1027,3 +1026,50 @@ footer ul li{
     font-size: 14px;
 }
 /* =============================ABOUT US END========================= */
+
+/* ===================================CONTACT US START============================= */
+.contact-us{
+    width: 1010px;
+    font-family: "Almarai", sans-serif;
+}
+.contact-us input[type="text"],
+.contact-us input[type="password"],
+.contact-us input[type="email"]{
+    /* width: 350px; */
+    height: 40px;
+    border-radius: 10px;
+    color: #42413D;
+    border: 1px solid #D8D8D8;
+    margin-bottom: 10px;
+    
+    background-color: #FFFFFF;
+}
+.contact-us p{
+    margin-top: 5px;
+}
+.contact-us label{
+    font-size: 12px;
+    line-height: 13.39px;
+    color: #42413D;
+    margin-bottom: 10px;
+}
+.contact-us .contact-us-heading{
+    background-image: url('../img/privacy-policy-heading-img.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 505px;
+    height: 34px;
+}
+.contact-us input::placeholder{
+    color: #D8D8D8;
+    font-size: 12px;
+    line-height: 13.39px;
+}
+.contact-us ul li{
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    list-style: none;
+    font-size: 14px;
+}
+/* ===================================CONTACT US END============================== */
