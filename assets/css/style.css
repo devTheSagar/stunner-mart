@@ -930,7 +930,7 @@ footer ul li{
 /* ===============================HOW TO BUY START================================= */
 .how-to-buy,
 .payment-proceed{
-    /* width: 1010px; */
+    width: 1010px;
     font-family: "Almarai", sans-serif;
     font-weight: 700;
 }
@@ -955,3 +955,37 @@ footer ul li{
     height: 34px;
 }
 /* ===============================HOW TO BUY END================================= */
+
+
+/* =========================PRIVACY POLICY START========================== */
+.privacy-policy{
+    width: 1010px;
+    font-family: "Almarai", sans-serif;
+    /* font-weight: 700; */
+}
+.privacy-policy .privacy-policy-heading{
+    background-image: url('../img/privacy-policy-heading-img.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 505px;
+    height: 34px;
+}
+.privacy-policy h5{
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+}
+.privacy-policy p{
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #42413D;
+}
+.privacy-policy ul li{
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    list-style: none;
+    font-size: 14px;
+}
+/* =========================PRIVACY POLICY ENDS========================== */
