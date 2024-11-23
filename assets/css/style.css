@@ -923,3 +923,35 @@ footer ul li{
 }
 
 /* ==================================LOGIN-SIGNUP END============================== */
+
+
+
+
+/* ===============================HOW TO BUY START================================= */
+.how-to-buy,
+.payment-proceed{
+    /* width: 1010px; */
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+}
+.payment-proceed{
+    margin-top: 150px;
+}
+.how-to-buy p,
+.payment-proceed p{
+    margin-top: 5px;
+}
+.how-to-buy span,
+.payment-proceed span{
+    font-weight: 300;
+}
+.how-to-buy .how-to-buy-heading,
+.payment-proceed .payment-proceed-heading{
+    background-image: url('../img/how-to-buy-header-img.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 505px;
+    height: 34px;
+}
+/* ===============================HOW TO BUY END================================= */
