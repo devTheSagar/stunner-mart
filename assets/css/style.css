@@ -798,7 +798,7 @@ footer ul li{
 
 
 
-/* ==================================LOGIN-SIGNUP START============================== */
+/* ==================================LOGIN | SIGNUP START============================== */
 .login-area,
 .signup-area{
     width: 896px;
@@ -922,7 +922,7 @@ footer ul li{
     color: #3787FF;
 }
 
-/* ==================================LOGIN-SIGNUP END============================== */
+/* ==================================LOGIN | SIGNUP END============================== */
 
 
 
@@ -957,7 +957,7 @@ footer ul li{
 /* ===============================HOW TO BUY END================================= */
 
 
-/* =========================PRIVACY POLICY & TERMS CONDITION START========================== */
+/* =========================PRIVACY POLICY | TERMS CONDITION | RETURN REFUND START========================== */
 .privacy-policy,
 .terms-condition,
 .return-refund{
@@ -1005,4 +1005,25 @@ footer ul li{
 .return-refund .company-info ul li{
     list-style: none;
 }
-/* =========================PRIVACY POLICY & TERMS CONDITION ENDS========================== */
+/* =========================PRIVACY POLICY | TERMS CONDITION | RETURN REFUND ENDS========================== */
+
+
+/* =============================ABOUT US START========================= */
+.about-us{
+    width: 1010px;
+    font-family: "Almarai", sans-serif;
+}
+.about-us p{
+    font-family: "Almarai", sans-serif;
+    font-size: 14px;
+    line-height: 15.62px;
+    font-weight: 300;
+    text-align: justify;
+}
+.about-us .company-info ul li{
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    list-style: none;
+    font-size: 14px;
+}
+/* =============================ABOUT US END========================= */
