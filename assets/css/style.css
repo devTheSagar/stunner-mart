@@ -798,50 +798,75 @@ footer ul li{
 
 
 
-/* ==================================LOGIN START============================== */
-.login-area{
+/* ==================================LOGIN-SIGNUP START============================== */
+.login-area,
+.signup-area{
     width: 896px;
     border: 1px solid #D8D8D8;
     margin-bottom: 150px;
     font-family: "Almarai", sans-serif;
     font-weight: 700;
 }
-.login-area input[type="text"], .login-area input[type="password"]{
+.login-area input[type="text"],
+.login-area input[type="password"],
+.signup-area input[type="text"],
+.signup-area input[type="password"],
+.signup-area select,
+
+.signup-area .input-group .input-group-text{
     /* width: 350px; */
     height: 40px;
     border-radius: 10px;
     color: #42413D;
     border: 1px solid #D8D8D8;
     margin-bottom: 10px;
-    padding-left: 20px;
+    
+    background-color: #FFFFFF;
 }
-.login-area input[type="checkbox"]{
+#day, #month, #year{
+    padding-left: 5px;
+    text-align: center;
+}
+.login-area input[type="checkbox"],
+.signup-area input[type="checkbox"]{
     border: 1px solid #D8D8D8;
     margin-bottom: 10px;
 }
 
-.login-area label{
+.login-area label,
+.signup-area label{
     font-size: 12px;
     line-height: 13.39px;
     color: #42413D;
     margin-bottom: 10px;
 }
-.login-area p{
+.login-area p,
+.signup-area p{
     font-size: 10px;
     line-height: 11.16px;
     color: #42413D;
     margin-top: 10px;
 }
-.login-area p span{
+.login-area p span,
+.signup-area p span{
     color: #3787FF;
     line-height: 12.28px;
 }
-.login-area input::placeholder{
+
+.login-area input::placeholder,
+.signup-area input::placeholder,
+.form-control, #day, #month, #year, #gender{
     color: #D8D8D8;
     font-size: 12px;
     line-height: 13.39px;
 }
-.login-area :nth-child(2) div a {
+.signup-area .input-group .input-group-text{
+    color: #3787FF;
+    font-size: 12px;
+    line-height: 13.39px;
+}
+.login-area :nth-child(2) div a,
+.signup-area :nth-child(2) div a {
     font-size: 10px;
     line-height: 11.16px;
     margin-top: 10px;
@@ -853,8 +878,20 @@ footer ul li{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.signin-with-social > div:nth-child(1) {
+    background-color: #04C700;
+    border: 1px solid #04C700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 .login-with-social > div:nth-child(1) h5 {
     color: #42413D;
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 16.74px;
+}
+.signin-with-social > div:nth-child(1) h5 {
+    color: #FFFFFF;
     margin-top: 5px;
     font-size: 15px;
     line-height: 16.74px;
@@ -866,11 +903,23 @@ footer ul li{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.signin-with-social > div:nth-child(2) {
+    height: auto;
+    border: 1px solid #04C700;
+    background-color: #F5F5F5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
-.login-area img{
+.login-area img,
+.signup-area img{
     max-width: 100%;
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure the image does not cause overflow */
 }
 
-/* ==================================LOGIN END============================== */
+.signup-area .terms-privacy label a{
+    color: #3787FF;
+}
+
+/* ==================================LOGIN-SIGNUP END============================== */

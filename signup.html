@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stunner Mart | Login</title>
+    <title>Stunner Mart | SignUp</title>
 
     <!-- fonts cdn  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -153,34 +153,147 @@
 
     <!-- main content start  -->
     <main class="main pb-4">
-        <div class="container login-area">
+        <div class="container signup-area">
             <div class="row">
                 <div class="col-12 col-md-12 col-sm-12">
-                    <!-- login form  -->
+                    <!-- signup form  -->
                     <form action="">
                         <div class="row d-flex flex-row gap-3 justify-content-center my-5">
                             <div class="col-5 col-md-5 col-sm-5 d-flex flex-column">
-                                <label for="">Email Or, Phone Number</label>
-                                <input type="text" name="" id="" placeholder="Please Enter your Email Or, Phone Number">
-                                <div class="col-12 col-md-12 col-sm-12 d-flex flex-row">
-                                    <input type="checkbox" name="" id="">&nbsp;&nbsp;&nbsp;
-                                    <label for="">receive exclusive offers and promotions via SMS or, Emails</label>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label for="">Full Name</label>
+                                        <div class="d-flex gap-1">
+                                            <div class="col">
+                                                <input type="text" name="" id="" class="form-control" placeholder="First Name">
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" name="" id="" class="form-control" placeholder="First Name">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <label for="">Email Or, Phone Number</label>
+                                <input class="form-control" type="text" name="" id="email" placeholder="Please Enter your Email Or, Phone Number">
+
+                                <label for="">One Time Password (OTP) From Email or, Phone Number</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Please Enter your OTP" aria-label="OTP">
+                                    <span class="input-group-text"><a href="#">Send OTP</a></span>
+                                </div>
+                                
+                                <p class="text-end">Already Have Account?  <span><a href="login.html">Login</a></span>  Now</p>
+
+                                
                                 <div class="col-12 col-md-12 col-sm-3 d-flex justify-content-center align-items-center">
                                     <a href="" type="submit">
-                                        <img src="assets/img/login-button.svg" alt="" class="img">
+                                        <img src="assets/img/signup-btn.svg" alt="" class="img">
                                     </a>
                                 </div>
-                                <p>No Account? <span><a href="signup.html">Register</a></span> here</p>
+                                <div class="col-12 col-md-12 col-sm-12 d-flex flex-row mt-3 terms-privacy">
+                                    <input type="checkbox" name="" id="">&nbsp;&nbsp;&nbsp;
+                                    <label for="">I agree to <span style="font-size: 12px; line-height: 13.39px;">‘STUNNER MART’</span> <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></label>
+                                </div>
                             </div>
                             <div class="col-5 col-md-5 col-sm-5 d-flex flex-column">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <label for="">Password</label>
-                                    <a href="#">Forgot your password</a>
+                                <!-- Date of Birth and Gender Section Side by Side -->
+                                <div class="row">
+                                    <!-- Date of Birth Section -->
+                                    <div class="col-md-6">
+                                        <label for="">Date of Birth</label>
+                                        <div class="d-flex gap-1">
+                                            <div class="col-md-3">
+                                                <select class="form-control" name="day" id="day">
+                                                    <option value="" disabled selected>Day</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                    <option value="25">25</option>
+                                                    <option value="26">26</option>
+                                                    <option value="27">27</option>
+                                                    <option value="28">28</option>
+                                                    <option value="29">29</option>
+                                                    <option value="30">30</option>
+                                                    <option value="31">31</option>
+                                                    <!-- Add more options here -->
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <select class="form-control" name="month" id="month">
+                                                    <option value="" disabled selected>Month</option>
+                                                    <option value="1">January</option>
+                                                    <option value="2">February</option>
+                                                    <option value="3">March</option>
+                                                    <option value="4">April</option>
+                                                    <option value="5">May</option>
+                                                    <option value="6">June</option>
+                                                    <option value="7">July</option>
+                                                    <option value="8">August</option>
+                                                    <option value="9">September</option>
+                                                    <option value="10">October</option>
+                                                    <option value="11">November</option>
+                                                    <option value="12">December</option>
+                                                    <!-- Add more options here -->
+                                                </select>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <select class="form-control" name="year" id="year">
+                                                    <option value="" disabled selected>Year</option>
+                                                    <option value="1990">1990</option>
+                                                    <option value="1991">1991</option>
+                                                    <option value="1992">1992</option>
+                                                    <option value="1993">1993</option>
+                                                    <!-- Add more options here -->
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Gender Section -->
+                                    <div class="col-md-6">
+                                        <label for="">Gender</label>
+                                        <div class="col">
+                                            <select class="form-control" name="gender" id="gender">
+                                                <option value="" disabled selected>Select</option>
+                                                <option value="male">Male</option>
+                                                <option value="female">Female</option>
+                                                <option value="other">Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                 </div>
-                                <input type="password" name="" id=""
-                                    placeholder="Please Enter your Password">
-                                <div class="w-100 mt-2 login-with-social">
+
+                            
+                                <!-- Password Section -->
+                                <label for="">Password</label>
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Please Enter Password">
+                            
+                                <label for="">Re-Enter Password</label>
+                                <input type="password" class="form-control" name="repassword" id="repassword" placeholder="Please Re-Enter Password">
+                            
+                                <!-- Social Sign-In Section -->
+                                <div class="w-100 mt-4 signin-with-social">
                                     <div class="d-flex justify-content-center align-items-center">
                                         <h5>Or, login with</h5>
                                     </div>
@@ -198,6 +311,7 @@
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </form>
                 </div>
