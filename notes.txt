@@ -1,3 +1,0 @@
-1. login page er header r home page er header alada
-
-2. signup page er header o alada home page er theke. login and signup er header eki

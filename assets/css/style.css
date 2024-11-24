@@ -1073,3 +1073,20 @@ footer ul li{
     font-size: 14px;
 }
 /* ===================================CONTACT US END============================== */
+
+
+/* ====================================OFFERS START======================= */
+.offers{
+    width: 1010px;
+}
+.offers .offers-heading{
+    background-image: url('../img/offer-heading-bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.offers h1{
+    font-family: "Lilita One", sans-serif;
+    color: white;
+}
+/* ====================================OFFERS END======================= */
