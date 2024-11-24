@@ -1154,3 +1154,65 @@ footer ul li{
     padding-bottom: 0; */
 }
 /* ==================================STORE END========================== */
+
+
+/* =========================BLOG START====================== */
+.blog{
+    width: 1010px;
+    font-family: "Almarai", sans-serif;
+}
+.blog h2{
+    font-size: 40px;
+    line-height: 44.64px;
+    font-weight: 800;
+    color: #42413D;
+}
+.blog .heading-description p{
+    font-size: 14px;
+    line-height: 15.62px;
+    font-weight: 400;
+    color: #42413D;
+}
+.blog .blog-post h4{
+    font-size: 20px;
+    line-height: 22.32px;
+    font-weight: 800;
+    color: #F7DF2A;
+}
+.blog .blog-post div{
+    background-color: #FFFFFF;
+}
+.blog .blog-post .text-justify {
+    text-align: justify;
+  }
+  .blog .top-selling-card .card-title{
+    font-size: 15px;
+    line-height: 16.74px;
+    font-weight: 800;
+    color: #F7DF2A;
+  }
+  .blog .top-selling-card .card-text{
+    font-size: 11px;
+    line-height: 12.28px;
+    font-weight: 400;
+    color: #42413D;
+  }
+  .blog .top-selling-card .date{
+    font-size: 12px;
+    line-height: 13.39px;
+    font-weight: 400;
+    color: #F52E26;
+  }
+  .blog .top-selling-card .read-more{
+    font-size: 12px;
+    line-height: 13.39px;
+    font-weight: 400;
+    color: #03A400;
+  }
+  .blog .left-arrow,
+  .blog .right-arrow{
+    background-color: #D8D8D8;;
+    border-radius: 10px;
+    height: 50px;
+  }
+/* =========================BLOG END====================== */
