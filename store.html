@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunner Mart | store</title>
+
+    <!-- fonts cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Almarai:wght@300;400;700;800&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- header start  -->
+    <header>
+        <div class="container-fluid">
+            <div class="row rectengle-1 d-flex">
+                <div class="col-3"></div>
+
+                <!-- Search Area -->
+                <div class="col-6 search-area d-flex justify-content-center align-items-center">
+                    <div class="static-text">Categories<span> |</span></div>
+                    <input class="search-bar" type="text" placeholder="Search in Stunner Mart">
+                </div>
+
+                <!-- Login and Cart Areas -->
+                <div class="col-3 login-cart m-0 p-0">
+                    <div class="row d-flex justify-content-end align-items-center">
+                        <div class="col-5">
+                            <div class="d-flex justify-content-start login">
+                                <img src="assets/img/profile-user.svg" alt="">
+                                <p class="mb-0">Hello, <a href="login.html">Login, </a> or <a href="signup.html">Sign Up</a>
+                                    <span><img class="down-arrow" src="assets/img/down-arrow.png" alt=""></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-4"></div>
+                        <div class="col-3">
+                            <div class="d-flex justify-content-end cart">
+                                <img class="cart-img" src="assets/img/shopping-cart.png" height="100%" width="60%"
+                                    alt="">
+                                <img class="down-arrow" src="assets/img/down-arrow.png" height="50%" width="10%" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-2 m-0">
+                    <!-- All Categories  -->
+                    <div class="row d-flex justify-content-start">
+                        <div class="col-1">
+                            <div class="row bg-red">
+                                <div class="left-round"></div>
+                            </div>
+                        </div>
+                        <div class="col-10 all-categories p-0 d-flex justify-content-center">
+                            <select name="" id="">
+                                <option value="">All Categories</option>
+                                <option value="">cat 2</option>
+                                <option value="">cat 3</option>
+                                <option value="">cat 4</option>
+                            </select>
+                        </div>
+                        <div class="col-1">
+                            <div class="row bg-red">
+                                <div class="right-round"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-1">
+                            <div class="row bg-yellow">
+                                <div class="left-round"></div>
+                            </div>
+                        </div>
+                        <div class="col-10 info-bar">
+                            <ul class="custom-list">
+                                <li><a href="#">Today Deals</a></li>
+                                <li><a href="offers.html">Offers</a></li>
+                                <li><a href="#">Order Tracking</a></li>
+                                <li><a href="#">Become a Seller</a></li>
+                                <li><a href="return-refund.html">Retutns & Refunds</a></li>
+                                <li><a href="#">Customer care</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-1">
+                            <div class="row bg-yellow">
+                                <div class="right-round"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Links  -->
+                <div class="col-2">
+                    <div class="follow-icons d-flex justify-content-end">
+                        <ul class="follow-icons">
+                            <li>
+                                <a href="#" class="colored">
+                                    <img src="assets/img/Facebook.svg" alt="Facebook">
+                                </a>
+                                <a href="#" class="gray">
+                                    <img src="assets/img/Facebook-select.svg" alt="Facebook Gray">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="colored">
+                                    <img src="assets/img/Whatsapp.svg" alt="WhatsApp">
+                                </a>
+                                <a href="#" class="gray">
+                                    <img src="assets/img/Whats App-select.svg" alt="WhatsApp Gray">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="colored">
+                                    <img src="assets/img/Instagram.svg" alt="Instagram">
+                                </a>
+                                <a href="#" class="gray">
+                                    <img src="assets/img/Instagram-select.svg" alt="Instagram Gray">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="colored">
+                                    <img src="assets/img/Youtube.svg" alt="YouTube">
+                                </a>
+                                <a href="#" class="gray">
+                                    <img src="assets/img/Youtube-select.svg" alt="YouTube Gray">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- main content start  -->
+    <main class="main pb-4">
+        <div class="container store">
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <img src="assets/img/store-banner.svg" alt="" class="w-100 h-100">
+                </div>
+                <div class="col-md-12 banner-footer p-0">
+                    <div class="row m-0">
+                        <div class="col-md-5">
+                            <h4 class="text-end mt-2">Stuner Mart Ltd.</h4>
+                        </div>
+                        <div class="col-md-2" style="border: 1px solid rgb(224, 76, 18);"></div>
+                        <div class="col-md-5">
+                            <div class="row m-0">
+                                <div class="col-md-2 d-flex flex-column">
+                                    <div class="d-flex justify-content-center align-items-center mt-2">
+                                        <img src="assets/img/store-chat.svg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="chat">
+                                        <p class="text-center">Chat</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="d-flex justify-content-center align-items-center mt-2">
+                                        <img src="assets/img/store-follow.svg" alt=""  class="img-fluid">
+                                    </div>
+                                    <div class="follow">
+                                        <p class="text-center">Follow</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="row m-0">
+                                        <div class="d-flex flex-row justify-content-end align-items-center mt-2">
+                                            <img src="assets/img/followers.svg" alt="">
+                                            <p class="text-center mb-0 followers">99999 Followers</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 store-menu">
+                    <div class="row m-2" style="height: auto;">
+                        <!-- Left side content -->
+                        <div class="col-md-6 d-flex flex-column flex-md-row gap-5">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="#"><p class="text-center mb-0">Home</p></a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="#"><p class="text-center mb-0">All Product</p></a>
+                            </div>
+                        </div>
+            
+                        <!-- Right side content -->
+                        <div class="col-md-6 d-flex justify-content-end flex-column flex-md-row gap-5">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search In Store">
+                                    <span class="input-group-text"><img src="assets/img/search.png" height="10px" width="10px" alt=""></span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="#"><p class="text-center mb-0"><span><img class="me-1" src="assets/img/down-arrow.svg" alt=""></span>Categories</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-2 mt-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="card w-100">
+                        <img src="assets/img/product.png" alt="Card image">
+                        <div class="card-body ps-1 pe-0">
+                            <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                            <h5 class="card-title mb-0 price">TK. 999</h5>
+                            <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-5">
+                <div class="col-md-12">
+                    <img src="assets/img/store-box.svg" alt="" class="w-100 h-100">
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 store-heading" style="height: 50px; width: 320px;">
+                    <h4 class="text-center mt-2">BABY ITEM</h4>
+                </div>
+                <div>
+                    <div style="height: 2px; background-color: #F7DF2A;"></div>
+                </div>
+                <div>
+                    <div class="row g-2 mt-2">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-6 store-heading" style="height: 50px; width: 320px;">
+                    <h4 class="text-center mt-2">BABY ITEM</h4>
+                </div>
+                <div>
+                    <div style="height: 2px; background-color: #F7DF2A;"></div>
+                </div>
+                <div>
+                    <div class="row g-2 mt-2">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="Card image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- footer start  -->
+    <footer class="footer">
+        <div class="container-fluid pt-4 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5>Shopping With Us</h5>
+                                        <ul>
+                                            <li><a href="#">Dress</a></li>
+                                            <li><a href="#">Women's Shoes</a></li>
+                                            <li><a href="#">Women's Sandals</a></li>
+                                            <li><a href="#">Women's Sets</a></li>
+                                            <li><a href="#">High Heels</a></li>
+                                            <li><a href="#">Tees</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <h5>About Us</h5>
+                                        <ul>
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Shopping Mall</a></li>
+                                            <li><a href="privacy-policy.html">Privacy & Policy</a></li>
+                                            <li><a href="terms-condition.html">Terms and Contion</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <h5>Deal With Us</h5>
+                                        <ul>
+                                            <li><a href="#">Be a Seller</a></li>
+                                            <li><a href="#">Flats</a></li>
+                                            <li><a href="#">Offers</a></li>
+                                            <li><a href="#">Today Deals</a></li>
+                                            <li><a href="#">Mega Discount</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-4">
+                                        <h5>Let Us Help You</h5>
+                                        <ul>
+                                            <li><a href="#">Order Tracking</a></li>
+                                            <li><a href="return-refund.html">Returns and Refund</a></li>
+                                            <li><a href="how-to-buy.html">How to Buy</a></li>
+                                            <li><a href="#">Site Map</a></li>
+                                            <li><a href="contact-us.html">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h5>Contact Us</h5>
+                                                <ul>
+                                                    <li class="fw-light">Janata Co-operative Housing Society Ltd,
+                                                        Shahabuddin Plaza , (1st floor) Shop# 30 </li>
+                                                    <li class="fw-light">House# 13-23 Road# 01, Ring Rd, Dhaka 1207</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <ul>
+                                                    <li class="fw-light">01956888896</li>
+                                                    <li class="fw-light text-decoration-underline"><a
+                                                            href="#">info@stunnermart.com</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-6 d-flex flex-column align-items-center">
+                                                <h5 class="text-center">Verified By</h5>
+                                                <div class="div">
+                                                    <img src="assets/img/sslcommerz.svg" alt="sslcommerz logo">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h5 class="text-center">Payment Method</h5>
+                        <div class="row d-flex justify-content-start mb-1">
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                            <div class="col-auto m-1"
+                                style="background-color: #FFFFFF; height: 35px; width: 16%; border-radius: 3px;"></div>
+                        </div>
+                        <div class="row mt-4 d-flex">
+                            <div class="col-4 mobile-apps">
+                                <h5 class="text-center">Get App on Mobile</h5>
+                                <div class="app-links">
+                                    <ul>
+                                        <li><a href="#"><img src="assets/img/playstore.svg" alt=""></a></li>
+                                    </ul>
+                                    <ul>
+                                        <p class="text-center" style="color: #F52E26;">or</p>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#"><img src="assets/img/apple.svg" alt=""></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="col-8 social-icons">
+                                <h5 class="text-center">Stay Connect</h5>
+                                <div class="social-links">
+                                    <ul class="mt-3">
+                                        <li>
+                                            <a href="#"><img src="assets/img/facebook-social.svg" alt=""></a>
+                                            <a href="#"><img src="assets/img/whatsapp-social.svg" alt=""></a>
+                                            <a href="#"><img src="assets/img/instagram-social.svg" alt=""></a>
+                                            <a href="#"><img src="assets/img/youtube-social.svg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

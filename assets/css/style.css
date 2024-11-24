@@ -1078,6 +1078,7 @@ footer ul li{
 /* ====================================OFFERS START======================= */
 .offers{
     width: 1010px;
+    font-family: "Almarai", sans-serif;
 }
 .offers .offers-heading{
     background-image: url('../img/offer-heading-bg.svg');
@@ -1090,3 +1091,66 @@ footer ul li{
     color: white;
 }
 /* ====================================OFFERS END======================= */
+
+
+/* ==================================STORE START========================== */
+.store{
+    width: 1010px;
+    font-family: "Almarai", sans-serif;
+}
+.store .banner-footer {
+    height: 50px;
+    background-color: #F8F8F8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.store .store-menu{
+    background-color: #F7DF2A;
+    border-radius: 10px;
+}
+.store .store-heading{
+    background-color: #F7DF2A;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.store h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.75px;
+    color: #42413D;
+}
+.store .chat,
+.store .follow,
+.store .followers{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14.51px;
+    color: #42413D;
+}
+.store .store-menu p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22.321px;
+    color: #42413D;
+}
+.store .card p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12.8px;
+    color: #42413D;
+}
+.store .card .price{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.2px;
+    color: #42413D;
+}
+.store .card .offer{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10.24px;
+    color: #A0A0A0;
+    /* margin-bottom: 0px;
+    padding-bottom: 0; */
+}
+/* ==================================STORE END========================== */
