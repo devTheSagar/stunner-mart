@@ -5,7 +5,9 @@
     font-family: 'Alatsi', sans-serif;
 }
 
-
+/* ====================================================================================================== */
+/* V.V.I  */
+/* use this class to your header tag's first div to get perfect positioning while using navbar-1  */
 .navbar-1 {
     position: relative;
     z-index: 1;
@@ -13,7 +15,8 @@
     padding: 0;
     margin-bottom: -10px;
 }
-
+/* V.V.I  */
+/* use this class to your main tag to get perfect positioning while using navbar-1  */
 .main-for-navbar-1 {
     position: relative;
     z-index: 2;
@@ -24,7 +27,7 @@
     justify-content: center;
     align-items: center;
 }
-
+/* ====================================================================================================== */
 
 
 a {
@@ -801,7 +804,7 @@ footer ul li{
 /* ==================================LOGIN | SIGNUP START============================== */
 .login-area,
 .signup-area{
-    width: 896px;
+    /* width: 896px; */
     border: 1px solid #D8D8D8;
     margin-bottom: 150px;
     font-family: "Almarai", sans-serif;
@@ -929,7 +932,7 @@ footer ul li{
 /* ===============================HOW TO BUY START================================= */
 .how-to-buy,
 .payment-proceed{
-    width: 1010px;
+    /* width: 1010px; */
     font-family: "Almarai", sans-serif;
     font-weight: 700;
 }
@@ -960,7 +963,7 @@ footer ul li{
 .privacy-policy,
 .terms-condition,
 .return-refund{
-    width: 1010px;
+    /* width: 1010px; */
     font-family: "Almarai", sans-serif;
     /* font-weight: 700; */
 }
@@ -1009,7 +1012,7 @@ footer ul li{
 
 /* =============================ABOUT US START========================= */
 .about-us{
-    width: 1010px;
+    /* width: 1010px; */
     font-family: "Almarai", sans-serif;
 }
 .about-us p{
@@ -1029,7 +1032,7 @@ footer ul li{
 
 /* ===================================CONTACT US START============================= */
 .contact-us{
-    width: 1010px;
+    /* width: 1010px; */
     font-family: "Almarai", sans-serif;
 }
 .contact-us input[type="text"],
@@ -1077,7 +1080,7 @@ footer ul li{
 
 /* ====================================OFFERS START======================= */
 .offers{
-    width: 1010px;
+    /* width: 1010px; */
     font-family: "Almarai", sans-serif;
 }
 .offers .offers-heading{
@@ -1095,7 +1098,7 @@ footer ul li{
 
 /* ==================================STORE START========================== */
 .store{
-    width: 1010px;
+    /* width: 1010px; */
     font-family: "Almarai", sans-serif;
 }
 .store .banner-footer {
@@ -1158,7 +1161,7 @@ footer ul li{
 
 /* =========================BLOG START====================== */
 .blog{
-    width: 1010px;
+    /* width: 1010px; */
     font-family: "Almarai", sans-serif;
 }
 .blog h2{

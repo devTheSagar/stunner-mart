@@ -22,126 +22,45 @@
 <body>
     <!-- header start  -->
     <header>
-        <div class="container-fluid navbar-1">
-            <div class="row rectengle-1 d-flex">
-                <div class="col-3"></div>
-
-                <!-- Search Area -->
-                <div class="col-6 search-area d-flex justify-content-center align-items-center">
-                    <div class="static-text">Categories<span> |</span></div>
-                    <input class="search-bar" type="text" placeholder="Search in Stunner Mart">
+        <div class="container-fluid custom-navbar">
+            <div class="row py-2">
+                <!-- logo  -->
+                <div class="col-md-3 d-flex justify-content-end align-items-center">
+                    <a href="index.html"><img src="assets/img/logo.svg" alt="" class="img-fluid"></a>
                 </div>
-
-                <!-- Login and Cart Areas -->
-                <div class="col-3 login-cart m-0 p-0">
-                    <div class="row d-flex justify-content-end align-items-center">
-                        <div class="col-5">
-                            <div class="d-flex justify-content-start login">
-                                <img src="assets/img/profile-user.svg" alt="">
-                                <p class="mb-0">Hello, <a href="login.html">Login, </a> or <a href="signup.html">Sign Up</a>
-                                    <span><img class="down-arrow" src="assets/img/down-arrow.png" alt=""></span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-4"></div>
-                        <div class="col-3">
-                            <div class="d-flex justify-content-end cart">
-                                <img class="cart-img" src="assets/img/shopping-cart.png" height="100%" width="60%"
-                                    alt="">
-                                <img class="down-arrow" src="assets/img/down-arrow.png" height="50%" width="10%" alt="">
-                            </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="input-group search">
+                        <span class="input-group-text" style="background-color: transparent; border: none;">
+                            <a href="#" style="color: black; text-decoration: none;">
+                                <span>Categories </span><span><img src="assets/img/right-arrow.svg" alt=""></span>&nbsp;|
+                            </a>
+                        </span>
+                        <input class="form-control" type="text" placeholder="Search in Stunner Mart">
+                        <div class="search-btn">
+                            <a href="#"><img src="assets/img/search-btn.svg" alt="" class="img-fluid h-100 w-100"></a>
+                            <!-- <a href="#"><div class="w-100 h-100" style="background-color: red;">search</div></a> -->
                         </div>
                     </div>
                 </div>
-            </div>
-
-
-            <div class="row d-flex justify-content-center">
-                <div class="col-2 m-0">
-                    <!-- All Categories  -->
-                    <div class="row d-flex justify-content-start">
-                        <div class="col-1">
-                            <div class="row bg-red">
-                                <div class="left-round"></div>
-                            </div>
+                
+                <div class="col-md-3 d-flex justify-content-between align-items-center">
+                    <div class="dropdown d-flex flex-row justify-content-center align-items-center">
+                        <img class="user-img" src="assets/img/Protrait Photo Sign.svg" alt="">
+                        <div class="ms-2 dropdown-trigger text" style="cursor: pointer;">
+                            <span>Hello, Login, </span><br><span>or Sign Up </span>
+                            <span>
+                                <img src="assets/img/down-arrow-icon.svg" alt="">
+                            </span>
                         </div>
-                        <div class="col-10 all-categories p-0 d-flex justify-content-center">
-                            <select name="" id="">
-                                <option value="">All Categories</option>
-                                <option value="">cat 2</option>
-                                <option value="">cat 3</option>
-                                <option value="">cat 4</option>
-                            </select>
-                        </div>
-                        <div class="col-1">
-                            <div class="row bg-red">
-                                <div class="right-round"></div>
-                            </div>
+                        <!-- Dropdown Menu -->
+                        <div class="login-dropdown-menu">
+                            <a href="login.html" class="dropdown-item">Login</a>
+                            <a href="signup.html" class="dropdown-item">Sign Up</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-8">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-1">
-                            <div class="row bg-yellow">
-                                <div class="left-round"></div>
-                            </div>
-                        </div>
-                        <div class="col-10 info-bar">
-                            <ul class="custom-list">
-                                <li><a href="#">Today Deals</a></li>
-                                <li><a href="offers.html">Offers</a></li>
-                                <li><a href="#">Order Tracking</a></li>
-                                <li><a href="#">Become a Seller</a></li>
-                                <li><a href="return-refund.html">Retutns & Refunds</a></li>
-                                <li><a href="#">Customer care</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-1">
-                            <div class="row bg-yellow">
-                                <div class="right-round"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Social Links  -->
-                <div class="col-2">
-                    <div class="follow-icons d-flex justify-content-end">
-                        <ul class="follow-icons">
-                            <li>
-                                <a href="#" class="colored">
-                                    <img src="assets/img/Facebook.svg" alt="Facebook">
-                                </a>
-                                <a href="#" class="gray">
-                                    <img src="assets/img/Facebook-select.svg" alt="Facebook Gray">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="colored">
-                                    <img src="assets/img/Whatsapp.svg" alt="WhatsApp">
-                                </a>
-                                <a href="#" class="gray">
-                                    <img src="assets/img/Whats App-select.svg" alt="WhatsApp Gray">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="colored">
-                                    <img src="assets/img/Instagram.svg" alt="Instagram">
-                                </a>
-                                <a href="#" class="gray">
-                                    <img src="assets/img/Instagram-select.svg" alt="Instagram Gray">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="colored">
-                                    <img src="assets/img/Youtube.svg" alt="YouTube">
-                                </a>
-                                <a href="#" class="gray">
-                                    <img src="assets/img/Youtube-select.svg" alt="YouTube Gray">
-                                </a>
-                            </li>
-                        </ul>
+                    
+                    <div>
+                        <img src="assets/img/cart.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -150,7 +69,7 @@
 
 
     <!-- main content start  -->
-    <main class="main-for-navbar-1 pb-4">
+    <main class="pb-4">
         <!-- about us  -->
         <div class="container about-us">
             <div class="row d-flex justify-content-center">
