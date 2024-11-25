@@ -6,7 +6,7 @@
 }
 
 
-header {
+.navbar-1 {
     position: relative;
     z-index: 1;
     background-color: #fff;
@@ -14,7 +14,7 @@ header {
     margin-bottom: -10px;
 }
 
-.main {
+.main-for-navbar-1 {
     position: relative;
     z-index: 2;
     margin-top: -150px;
@@ -730,7 +730,7 @@ a {
 }
 
 @media (max-width: 1020px){
-    .main{
+    .main-for-navbar-1{
         margin-top: -204px;
     }
 
