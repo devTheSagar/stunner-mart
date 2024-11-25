@@ -1295,3 +1295,120 @@ footer ul li{
     color: #42413D;
 }
 /* =========================NAVBAR 2 START===================== */
+
+
+
+/* ============================PRODUCT PAGE START=========================== */
+.product-area{
+    font-family: "Almarai", sans-serif;
+}
+.product-area .brand-logo{
+    height: 30px;
+    width: 30px;
+    background-color: #FFEDED;
+    border-radius: 5px;
+    font-size: 6px;
+    line-height: 7.2px;
+    text-align: center;
+    color: #42413D;
+}
+.product-area .brand-name{
+    font-size: 12px;
+    line-height: 13.39px;
+    color: #42413D;
+}
+.product-area .see-more-link{
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10.04px;
+    color: #03A400;
+}
+.product-area .product-rating .checked{
+    color: orange;
+}
+.product-area .product-name h4{
+    font-family: "Tajawal", sans-serif;
+    /* font-size: 15px; */
+    line-height: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #42413D;
+}
+.product-area .product-rating div:first-of-type span:first-of-type {
+    color: #42413D;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+  }
+.product-area .product-rating div:first-of-type span:last-of-type {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 700;
+    color: #42413D;
+    font-size: 12px;
+    line-height: 12px;
+  }
+.product-area .product-rating div:last-of-type span {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 900;
+    color: #42413D;
+    font-size: 13px;
+    line-height: 13.2px;
+  }
+.product-area .price {
+    font-weight: 700;
+    color: #F7DF2A;
+    font-size: 32px;
+    line-height: 35.71px;
+  }
+.product-area .discount  {
+    font-weight: 700;
+    color: #03A400;
+    font-size: 12px;
+    line-height: 13.39px;
+  }
+.product-area .prev-price-lebel  {
+    font-weight: 400;
+    color: #42413D;
+    font-size: 10px;
+    line-height: 8.93px;
+  }
+.product-area .prev-price-amount  {
+    font-weight: 700;
+    color: #42413D;
+    font-size: 11px;
+    line-height: 11.16px;
+  }
+.product-area .items-left  {
+    font-weight: 400;
+    color: #F52E26;
+    font-size: 11px;
+    line-height: 11.16px;
+  }
+
+
+
+
+/* product viewer & thambnail  */
+#thumbnail-container {
+    display: flex;
+    gap: 5px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .thumbnail.active {
+    border: 2px solid blue;
+  }
+
+  .thumbnail {
+    transition: border 0.3s ease;
+  }
+
+  .thumbnail:hover {
+    border: 2px solid gray;
+  }
+
+  #main-image-container {
+    text-align: center;
+  }
+/* ============================PRODUCT PAGE END=========================== */
