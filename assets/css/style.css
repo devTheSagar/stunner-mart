@@ -1216,3 +1216,79 @@ footer ul li{
     height: 50px;
   }
 /* =========================BLOG END====================== */
+
+
+/* =========================NAVBAR 2 START===================== */
+.custom-navbar{
+    font-family: "Almarai", sans-serif;
+    background-color: #F7DF2A;
+    height: auto;
+}
+.custom-navbar .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-navbar .dropdown:hover .login-dropdown-menu {
+    display: block;
+}
+
+.custom-navbar .dropdown .login-dropdown-menu {
+    padding: 10px;
+    min-width: 150px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+.custom-navbar .dropdown .login-dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.custom-navbar .search{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.custom-navbar .search span{
+    font-family: 'Alatsi', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.64px;
+    color: #42413D;
+    background-color: #FFFFFF;
+}
+.custom-navbar .search input::placeholder{
+    font-family: 'Alatsi', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #F52E2633;
+    background-color: #FFFFFF;
+}
+.custom-navbar .search input{
+    border: none;
+    box-shadow: none;
+}
+.custom-navbar .search .search-btn{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+.custom-navbar .dropdown .user-img{
+    height: 28px;
+    width: 28px;
+}
+.custom-navbar .dropdown .text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.39px;
+    color: #42413D;
+}
+/* =========================NAVBAR 2 START===================== */
