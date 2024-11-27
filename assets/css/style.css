@@ -1747,3 +1747,177 @@ footer ul li{
 }
 
 /* ==================================CART PAGE START============================== */
+
+
+
+/* =====================================CHECKOUT PAGE START============================ */
+.horizontal-line {
+    height: 3px;
+    background-color: #FFFFFF; /* Red color */
+    box-shadow: 0 4px 6px #FF000033; /* Drop shadow */
+    border: none;
+    margin: 10px 0; /* Optional spacing */
+}
+.checkout-area{
+    font-family: "Almarai", sans-serif;
+}
+.checkout-area .delivery-details .delivery-details-heading{
+    font-size: 14px;
+    line-height: 15.62px;
+    font-weight: 700;
+    color: #42413D;
+}
+.checkout-area .delivery-details .name p{
+    font-size: 14px;
+    line-height: 15.62px;
+    font-weight: 700;
+    color: #42413D;
+}
+.checkout-area .delivery-details .name span{
+    margin-left: 20px;
+    color: #F52E26;
+}
+.checkout-area .delivery-details .change a{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #00E0FF;
+}
+.checkout-area .delivery-details .address p strong{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 13.39px;
+    color: #42413D;
+}
+.checkout-area .delivery-details .address p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 13.39px;
+    color: #42413D;
+}
+
+.checkout-area .order-info .shop h5{
+    font-size: 14px;
+    line-height: 15.67px;
+    font-weight: 700;
+    color: #42413D;
+}
+.checkout-area .order-info .shop small{
+    font-size: 10px;
+    line-height: 15.67px;
+    font-weight: 400;
+    color: #F52E26;
+}
+.checkout-area .order-info .subtotal small{
+    font-size: 10px;
+    line-height: 15.67px;
+    font-weight: 400;
+    color: #959595;
+}
+.checkout-area .order-info .subtotal p{
+    font-size: 14px;
+    line-height: 15.67px;
+    font-weight: 700;
+    color: #42413D;
+}
+.checkout-area .order-info .product-description p:first-of-type{
+    font-size: 11px;
+    line-height: 12.28px;
+    font-weight: 300;
+    color: #42413D;
+    text-align: justify;
+}
+.checkout-area .order-info .product-description p:last-of-type{
+    font-size: 10px;
+    line-height: 11.16px;
+    font-weight: 300;
+    color: #D0D0D0;
+}
+.checkout-area .order-info .delivery-info p{
+    font-size: 10px;
+    line-height: 11.16px;
+    font-weight: 300;
+    color: #5B0093;
+}
+.checkout-area .order-info .delivery-info p span,
+.checkout-area .order-info .quantity p{
+    font-size: 10px;
+    line-height: 11.16px;
+    font-weight: 300;
+    color: #42413D;
+}
+.checkout-area .order-info .price span:first-of-type{
+    font-size: 10px;
+    line-height: 11.16px;
+    font-weight: 300;
+    color: #959595;
+}
+.checkout-area .order-info .price span:last-of-type{
+    font-size: 10px;
+    line-height: 11.16px;
+    font-weight: 300;
+    color: #656565;
+}
+.checkout-area .order-info .price h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #F7DF2A;
+    text-shadow: 0px 2px 2px #00000040;
+}
+.checkout-area .order-details .order-details-heading{
+    font-size: 16px;
+    line-height: 17.86px;
+    font-weight: 400;
+    color: #42413D;
+}
+.checkout-area .order-details .order-info p{
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+    color: #42413D;
+}
+.checkout-area .order-details .total-payable-heading p{
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 700;
+    color: #42413D;
+}
+.checkout-area .order-details .total-payable-heading span{
+    font-size: 14px;
+    line-height: 15.62px;
+    font-weight: 700;
+    color: #03A400;
+}
+.checkout-area .order-details .vat p:first-of-type{
+    font-size: 10px;
+    line-height: 11.16px;
+    font-weight: 400;
+    color: #D8D8D8DD;
+}
+.checkout-area .order-details .vat p:last-of-type{
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+    color: #42413D;
+}
+.checkout-area input::placeholder{
+    font-size: 10px;
+    line-height: 11px;
+    color: #959595;
+}
+.fade-span{
+    font-size: 10px;
+    line-height: 11.16px;
+    color: #42413D;
+}
+.money{
+    font-size: 12px;
+    line-height: 13.39px;
+    font-weight: 700;
+    color: #42413D;
+}
+
+
+
+/* =====================================CHECKOUT PAGE START============================ */
