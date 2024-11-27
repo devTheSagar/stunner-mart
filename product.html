@@ -168,7 +168,7 @@
                                         <span class="items-left mt-2">Only 12 items left</span>
                                     </div>
                                     <div class="mt-5 quantity selector d-flex flex-row justify-content-start align-items-center">
-                                        <label for="quantity-input" class="me-3 fw-bold">Quantity:</label>
+                                        <label for="quantity-input" class="me-3">Quantity:</label>
                                         <div class="input-group" style="width: 150px;">
                                             <button class="btn btn-outline-secondary" id="decrease-btn"
                                                 type="button">-</button>
@@ -191,8 +191,8 @@
                                     </div>
                                     <div class="row mb-2">
                                         <div class="col-md-12 variation" style="border: 1px solid red;">
-                                            <div>
-                                                <p>Variation: <span>Color (Language/Size/etc)</span></p>
+                                            <div class="variation-lebel ms-4 mt-2">
+                                                <p class="mb-1">Variation: <span>Color (Language/Size/etc)</span></p>
                                             </div>
                                             <div class="row align-items-center">
                                                 <!-- Left Arrow -->
@@ -225,7 +225,444 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-7 col-md-5 col-sm-7" style="border: 1px solid rgb(93, 10, 248);"></div>
+                        </div>
+                        <div class="col-5 col-md-5 col-sm-5">
+                            <div class="row shipping-info">
+                                <div class="info-label d-flex justify-content-between p-0">
+                                    <span>Shipping to</span>
+                                    <span><img src="assets/img/info-icon.svg" alt=""></span>
+                                </div>
+                                
+                                <div class="col-md-12 shipping-address">
+                                    <div class="row">
+                                        <div class="col-md-12" style="border: 1px solid green;">
+                                            <div class="d-flex justify-content-between align-items-center mt-1">
+                                                <p class="address my-0 py-0">Dhaka South, Dhaka..</p>
+                                                <a href="#"><p class="change my-0 py-0">CHANGE</p></a>
+                                            </div>
+                                            <p class="address my-0 py-0">Dhaka South, Dhaka..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 delivery-type mt-2">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="type my-0 py-0">Standard Delivery</p>
+                                                <p class="fee my-0 py-0">৳ 110</p>
+                                            </div>
+                                            <div class="order-date mt-1">
+                                                <span>31 Dec - 3 Jan</span>
+                                                <span class="ms-4">4-6 Day(s)</span>
+                                            </div>
+                                            <div class="mt-2">
+                                                <p class="mb-2 delivery-date">Delivery <span>Friday, 3 December</span></p>
+                                                <p class="mb-2 payment-type">Cash On Delivery Available</p>
+                                                <p class="mb-2 ship-info">Ships From Overseas / BD.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="mt-1" style="border: 1px solid #E0E0E0;">
+                            </div>
+
+
+                            <div class="row service-info">
+                                <div class="info-label d-flex justify-content-between p-0">
+                                    <span>Service</span>
+                                    <span><img src="assets/img/info-icon.svg" alt=""></span>
+                                </div>
+                                
+                                <div class="col-md-12 mt-2">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="services d-flex flex-column mt-2">
+                                                <div>
+                                                    <p>Secure payments <br><span>Every payment you make on StunnerMart is secured</span></p>
+                                                </div>
+                                                <div>
+                                                    <p>00 Days Returns (Free) <br><span>Change of mind is not Applicable</span></p>
+                                                </div>
+                                                <div>
+                                                    <h5>Warranty Not Available</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="mt-1" style="border: 1px solid #E0E0E0;">
+                            </div>
+
+                            <div class="row vendor-info">
+                                <div class="info-label d-flex justify-content-between p-0">
+                                    <span>Sold By</span>
+                                </div>
+                                
+                                <div class="col-md-12 mt-2">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="d-flex flex-row mt-2">
+                                                <div class="m-0 p-0">
+                                                    <p class="vendor">The Store \ Shop Name or, Distribution Name.</p>
+                                                </div>
+                                                <div>
+                                                    <a href="#"><p class="chat mb-1 p-0">CHAT</p></a>
+                                                    <a href="#"><p class="store m-0 p-0 text-justify text-center">Visit Store</p></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-12">
+                                            <!-- rating progressbar  -->
+                                             <img src="assets/img/rating-chart.svg" alt="" class="h-100 w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="mt-1" style="border: 1px solid #E0E0E0;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-9 col-sm-8" style="border: 1px solid red;">
+
+                    <!-- menu  -->
+                    <div class="row my-2">
+                        <div class="menu-bar col-md-12 d-flex justify-content-between">
+                            <a href="#">About Product</a>
+                            <a href="#">Packaging and delivery</a>
+                            <a href="#">Rating & Review</a>
+                            <a href="#">About Supplier </a>
+                            <a href="#">More Details From The Suppliers</a>
+                        </div>
+                    </div>
+
+                    <!-- about product  -->
+                    <div class="row mt-2">
+                        <div class="col-md-12 about-product" style="border: 1px solid red; padding: 20px;">
+                            <h3>About Product</h3>
+                            
+                            <div class="ms-4">
+                                <!-- Button Group -->
+                                <div class="btn-group mb-3" role="group" aria-label="Product Details">
+                                    <button
+                                        class="btn btn-link custom-btn active"
+                                        type="button"
+                                        onclick="showContent('description', this)">
+                                        Description
+                                    </button>
+                                    <button
+                                        class="ms-3 btn btn-link custom-btn"
+                                        type="button"
+                                        onclick="showContent('details', this)">
+                                        Details
+                                    </button>
+                                </div>
+                                
+                                <!-- Content Area -->
+                                <div id="content-area">
+                                    <!-- Description Section -->
+                                    <div id="description" class="content-section">
+                                        <ul class="list-unstyled">
+                                            <li>Brand: <span>AULA</span></li>
+                                            <li>Model: <span>F3287</span></li>
+                                            <li>Type: <span>Mechanical Gaming Keyboard</span></li>
+                                            <li>Number Of Keys: <span>87</span></li>
+                                            <li>Color Of Switch: <span>White Gray Mixed</span></li>
+                                            <li>Connection Method: <span>Wired</span></li>
+                                            <li>Key Life Time: <span>60 Million</span></li>
+                                            <li>Dimensions: <span>360 x 128 x 35.2 mm</span></li>
+                                        </ul>
+                                    </div>
+                            
+                                    <!-- Details Section -->
+                                    <div id="details" class="content-section d-none">
+                                        <p>
+                                            The Oral-B Cross Action All In One Manual Toothbrush removes up to 99% of plaque in hard to reach areas*. The Cross Action bristles attack plaque with every stroke while the tongue and cheek cleaner helps to remove odor-causing bacteria for fresher breath. The end-rounded bristle are gentle on your teeth and gums while still effectively removing plaque. The power-tip bristles allow the Cross Action All-In-One to clean hard to reach areas while the gum simulators gently massage your gums. Oral-B is the #1 Toothbrush Brand Used by Dentists Worldwide. Colors may vary. *based on a single-use brushing study
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <hr class="m-0 p-0" style="height: 3px; color: rgb(255, 245, 211);">
+
+                    <!-- Packaging And Delivery -->
+                    <div class="row">
+                        <div class="col-md-12 packing-delivery" class="col-md-12" style="border: 1px solid red; padding: 20px;">
+                            <h3>Packaging And Delivery</h3>
+                            <div class="ms-4">
+                                <ul class="list-unstyled">
+                                    <li>Packaging Details : <span>Each Harry LED Magic Wand packaging gift box.</span></li>
+                                    <li>Selling Units : <span>Single item</span></li>
+                                    <li>Single package size : <span>15X5X3 cm</span></li>
+                                    <li>Single gross weight : <span>0.350 kg</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="m-0 p-0" style="height: 3px; color: rgb(255, 245, 211);">
+
+                    <!-- Rating And Review -->
+                    <div class="row">
+                        <div class="col-md-12 rating-review" style="border: 1px solid red; padding: 20px;">
+                            <h3>Rating And Review</h3>
+                            <!-- rating  -->
+                            <div class="row d-flex flex-row justify-content-center mb-2">
+                                <div class="col-md-10" style="border: 1px solid #f8e23e; border-top-left-radius: 10px;">
+                                    <div class="row">
+                                        <div class="col-md-12 rating-review-heading">
+                                            <p class="m-0">~ Imrul Jewel <span>00 Days Ago</span></p>
+                                        </div>
+                                        <div class="col-md-12 mt-2">
+                                            <div class="m-0 review">
+                                                <p class="m-0">This is the second book of these I’ve had. My 18 mth old loves music and I especially love that it is Christian songs. The first one ran out of battery about 10 months after having, but we used it all the time. We found it was just cheaper buying a new book rather than replacing the batteries. This is the second book of these I’ve had. My 18 mth old loves music and I especially love that it is Christian songs. The first one ran out of battery about 10 months after having, but we used it all the time.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row gap-2 ms-1 mt-4 mb-2">
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- rating  -->
+                            <div class="row d-flex flex-row justify-content-center mb-2">
+                                <div class="col-md-10" style="border: 1px solid #f8e23e; border-top-left-radius: 10px;">
+                                    <div class="row">
+                                        <div class="col-md-12 rating-review-heading">
+                                            <p class="m-0">~ Imrul Jewel <span>00 Days Ago</span></p>
+                                        </div>
+                                        <div class="col-md-12 mt-2">
+                                            <div class="m-0 review">
+                                                <p class="m-0">This is the second book of these I’ve had. My 18 mth old loves music and I especially love that it is Christian songs. The first one ran out of battery about 10 months after having, but we used it all the time. We found it was just cheaper buying a new book rather than replacing the batteries. This is the second book of these I’ve had. My 18 mth old loves music and I especially love that it is Christian songs. The first one ran out of battery about 10 months after having, but we used it all the time.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row gap-2 ms-1 mt-4 mb-2">
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- rating  -->
+                            <div class="row d-flex flex-row justify-content-center mb-2">
+                                <div class="col-md-10" style="border: 1px solid #f8e23e; border-top-left-radius: 10px;">
+                                    <div class="row">
+                                        <div class="col-md-12 rating-review-heading">
+                                            <p class="m-0">~ Imrul Jewel <span>00 Days Ago</span></p>
+                                        </div>
+                                        <div class="col-md-12 mt-2">
+                                            <div class="m-0 review">
+                                                <p class="m-0">This is the second book of these I’ve had. My 18 mth old loves music and I especially love that it is Christian songs. The first one ran out of battery about 10 months after having, but we used it all the time. We found it was just cheaper buying a new book rather than replacing the batteries. This is the second book of these I’ve had. My 18 mth old loves music and I especially love that it is Christian songs. The first one ran out of battery about 10 months after having, but we used it all the time.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row gap-2 ms-1 mt-4 mb-2">
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- rating  -->
+                            <div class="row d-flex flex-row justify-content-center mb-2">
+                                <div class="col-md-10" style="border: 1px solid #f8e23e; border-top-left-radius: 10px;">
+                                    <div class="row">
+                                        <div class="col-md-12 rating-review-heading">
+                                            <p class="m-0">~ Imrul Jewel <span>00 Days Ago</span></p>
+                                        </div>
+                                        <div class="col-md-12 mt-2">
+                                            <div class="m-0 review">
+                                                <p class="m-0">This is the second book of these I’ve had. My 18 mth old loves music and I especially love that it is Christian songs. The first one ran out of battery about 10 months after having, but we used it all the time. We found it was just cheaper buying a new book rather than replacing the batteries. This is the second book of these I’ve had. My 18 mth old loves music and I especially love that it is Christian songs. The first one ran out of battery about 10 months after having, but we used it all the time.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row gap-2 ms-1 mt-4 mb-2">
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- rating  -->
+                            <div class="row d-flex flex-row justify-content-center mb-2">
+                                <div class="col-md-10" style="border: 1px solid #f8e23e; border-top-left-radius: 10px;">
+                                    <div class="row">
+                                        <div class="col-md-12 rating-review-heading">
+                                            <p class="m-0">~ Imrul Jewel <span>00 Days Ago</span></p>
+                                        </div>
+                                        <div class="col-md-12 mt-2">
+                                            <div class="m-0 review">
+                                                <p class="m-0">This is the second book of these I’ve had. My 18 mth old loves music and I especially love that it is Christian songs. The first one ran out of battery about 10 months after having, but we used it all the time. We found it was just cheaper buying a new book rather than replacing the batteries. This is the second book of these I’ve had. My 18 mth old loves music and I especially love that it is Christian songs. The first one ran out of battery about 10 months after having, but we used it all the time.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row gap-2 ms-1 mt-4 mb-2">
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                                <div class="col-md-2 col-sm-2" style="height: 45px; width: 45px; background-color: #D8D8D8;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- see more button  -->
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="#">see all</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="m-0 p-0" style="height: 3px; color: rgb(255, 245, 211);">
+
+                    <!-- About Supplier -->
+                    <div class="row">
+                        <div class="col-md-12 about-supplier" class="col-md-12" style="border: 1px solid red; padding: 20px;">
+                            <h3>About Supplier</h3>
+                            <div class="ms-4">
+                                <!-- about supplier content goes here  -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="m-0 p-0" style="height: 3px; color: rgb(255, 245, 211);">
+
+                    <!-- More Details From Suppliers  -->
+                    <div class="row">
+                        <div class="col-md-12 supplier-details" class="col-md-12" style="border: 1px solid red; padding: 20px;">
+                            <h3>More Details From Suppliers</h3>
+                            <div class="ms-4">
+                                <!-- supplier details content goes here  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- most viewed similar items  -->
+                <div class="col-md-3 col-sm-4" style="border: 1px solid #D0D0D0">
+                    <div class="row gap-2">
+                        <div class="col-md-12 d-flex justify-content-center align-items-center" style="background-color: #F7DF2A; color: #FFFFFF;  border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                            <h3>Most Viewed <br> Similar Items</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="product image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="product image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="product image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="product image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="product image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="product image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="product image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="product image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card w-100">
+                                <img src="assets/img/product.png" alt="product image">
+                                <div class="card-body ps-1 pe-0">
+                                    <p class="card-text text-justify mb-0">Product Name & Deatails. Product Name & Deatails. Product Name & Deatails. </p>
+                                    <h5 class="card-title mb-0 price">TK. 999</h5>
+                                    <p class="card-text offer text-justify mb-0"><del>Tk. 999 </del> &nbsp;<span> -28%</span></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -422,6 +859,7 @@
         crossorigin="anonymous"></script>
 
 
+    <!-- for thabnails image selector  -->
     <script>
         const mainImage = document.getElementById("main-image");
         const thumbnails = document.querySelectorAll(".thumbnail");
@@ -444,6 +882,7 @@
         });
     </script>
 
+    <!-- quantity selectors -->
     <script>
         // Select elements
         const decreaseBtn = document.getElementById("decrease-btn");
@@ -470,6 +909,27 @@
                 quantityInput.value = 1;
             }
         });
+    </script>
+
+    <!-- rating review viewer in one div  -->
+    <script>
+        function showContent(sectionId, btn) {
+        // Hide all content sections
+        document.querySelectorAll('.content-section').forEach((section) => {
+            section.classList.add('d-none');
+        });
+
+        // Show the selected section
+        document.getElementById(sectionId).classList.remove('d-none');
+
+        // Remove active class from all buttons
+        document.querySelectorAll('.custom-btn').forEach((button) => {
+            button.classList.remove('active');
+        });
+
+        // Add active class to the clicked button
+        btn.classList.add('active');
+    }
     </script>
 
 </body>

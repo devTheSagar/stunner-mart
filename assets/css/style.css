@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Alatsi', sans-serif;
+    /* background-color: #F8F8F8; */
 }
 
 /* ====================================================================================================== */
@@ -1384,6 +1385,363 @@ footer ul li{
     font-size: 11px;
     line-height: 11.16px;
   }
+.product-area .quantity label{
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13.2px;
+    color: #42413D;
+}
+.product-area .variation p{
+    font-family: "Tajawal", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #42413D;
+}
+.product-area .variation p span{
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #42413D;
+}
+.product-area .shipping-info .info-label,
+.product-area .service-info .info-label,
+.product-area .vendor-info .info-label{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11.6px;
+    color: #D0D0D0;
+}
+.product-area .shipping-info .shipping-address .address{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    color: #42413D;
+}
+.product-area .shipping-info .shipping-address .change{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 11.16px;
+    color: #00E0FF;
+}
+.product-area .shipping-info .delivery-type .type{
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 12.28px;
+    color: #5B0093;
+}
+.product-area .shipping-info .delivery-type .fee{
+    font-weight: 800;
+    font-size: 9px;
+    line-height: 10.4px;
+    color: #442413DD;
+}
+.product-area .shipping-info .delivery-type .order-date{
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8.93px;
+    color: #A0A0A0;
+}
+.product-area .shipping-info .delivery-type .delivery-date,
+.product-area .shipping-info .delivery-type .payment-type,
+.product-area .shipping-info .delivery-type .ship-info{
+    font-weight: 400;
+    font-size:11px;
+    line-height: 12.28px;
+    color: #42413D;
+}
+.product-area .shipping-info .delivery-type .delivery-date span{
+    font-weight: 700;
+}
+
+.product-area .service-info .services p{
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 12.8px;
+    color: #42413D;
+}
+.product-area .service-info .services p span{
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8.93px;
+    color: #42413D;
+}
+.product-area .service-info .services h5{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11.16px;
+    color: #b89920;
+}
+.product-area .vendor-info .vendor{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13.39px;
+    color: #5B0093;
+}
+.product-area .vendor-info .chat{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12.28px;
+    color: #4AE9FF;
+}
+.product-area .vendor-info .store{
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8.93px;
+    color: #03A400;
+}
+.product-area .menu-bar a{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14.51px;
+    color: #42413D;
+}
+.product-area .about-product .custom-btn{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14.51px;
+    color: #42413D;
+}
+.product-area .about-product #description,
+.product-area .packing-delivery ul li {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    color: #42413D;
+}
+.product-area .about-product #description span,
+.product-area .packing-delivery ul li span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #42413D;
+}
+.product-area .packing-delivery h3,
+.product-area .about-product h3,
+.product-area .rating-review h3,
+.product-area .about-supplier h3,
+.product-area .supplier-details h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.78px;
+}
+.product-area .rating-review .rating-review-heading{
+    background-image: url('../img/review-rating-heading.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+}
+.product-area .rating-review .rating-review-heading p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    color: #4D4D4D;
+}
+.product-area .rating-review .rating-review-heading p span{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 7.81px;
+    color: #4D4D4D;
+}
+.product-area .rating-review .review{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #42413D;
+    text-align: justify;
+}
+.product-area .about-product #details p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #42413D;
+}
+
+
+
+
+
+/* button group  */
+/* Base style for buttons */
+.custom-btn {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+/* Style for the active button */
+.custom-btn.active,
+.custom-btn:hover {
+    text-decoration: underline;
+    text-decoration-color: #F7DF2A; /* Custom underline color */
+    text-decoration-thickness: 3px; /* Thickness of the underline */
+    text-underline-offset: 10px;   /* Gap between text and underline */
+    color: #F7DF2A;                /* Text color */
+    font-weight: bold;
+}
+
+
+/* Hover state for buttons */
+.custom-btn:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* progress circle */
+.progress {
+  width: 150px;
+  height: 150px !important;
+  float: left; 
+  line-height: 150px;
+  background: none;
+  margin: 20px;
+  box-shadow: none;
+  position: relative;
+}
+.progress:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 12px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.progress .progress-left {
+  left: 0;
+}
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 12px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+.progress .progress-right {
+  right: 0;
+}
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: #000;
+  font-size: 24px;
+  color: #fff;
+  line-height: 135px;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.progress.blue .progress-bar {
+  border-color: #049dff;
+}
+.progress.blue .progress-left .progress-bar {
+  animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar {
+  border-color: #fdba04;
+}
+.progress.yellow .progress-right .progress-bar {
+  animation: loading-3 1.8s linear forwards;
+}
+.progress.yellow .progress-left .progress-bar {
+  animation: none;
+}
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+  }
+}
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+}
+
+
+
+
+
 
 
 
