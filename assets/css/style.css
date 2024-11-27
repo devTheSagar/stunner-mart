@@ -1633,6 +1633,13 @@ footer ul li{
     font-size: 20px;
     line-height: 23px;
 }
+.cart-area .unavailable-heading{
+    background-color: #F7DF2A;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
 .cart-area .select-all label{
     color: #42413D;
     font-weight: 400;
