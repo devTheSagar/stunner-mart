@@ -266,6 +266,64 @@ a {
     word-wrap: break-word;
 }
 
+
+
+
+/* Hide dropdown menu initially */
+.dropdown-menu {
+    margin-top: -10px;
+    display: none;
+}
+.dropdown-menu li{
+    height: 30px;
+}
+
+/* Show dropdown when hovering over the nav-container */
+.nav-container:hover .dropdown-menu {
+    display: block;
+}
+
+/* Submenu styling */
+.dropdown-menu .dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-menu .dropdown-submenu .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.dropdown-menu .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+    }
+
+/* Arrow indicator for submenus */
+.dropdown-menu .dropdown-submenu>a::after {
+    content: ">";
+    float: right;
+}
+
+.nav-container {
+    width: 250px;
+}
+
+.menu-header {
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #f54040;
+    cursor: pointer;
+}
+
+.dropdown-item {
+    font-size: 14px;
+}
+
+.highlighted-item {
+    color: #f54040;
+}
 /* =========================HOMEPAGE END===================== */
 
 
