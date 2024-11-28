@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stunner Mart | Checkout</title>
+    <title>Stunner Mart | Home</title>
 
     <!-- fonts cdn  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,8 +22,8 @@
 <body>
     <!-- header start  -->
     <header>
-        <div class="container-fluid custom-navbar">
-            <div class="row py-2">
+        <div class="container-fluid header">
+            <div class="row py-2 first-row">
                 <!-- logo  -->
                 <div class="col-md-3 d-flex justify-content-end align-items-center">
                     <a href="index.html"><img src="assets/img/logo.svg" alt="" class="img-fluid"></a>
@@ -64,233 +64,34 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-3 col-3 p-0" style="background-color: white">
+                    <div class="row p-0 m-0" style="background-color: white;">
+                        <!-- all categories part  -->
+                        <div class="col-md-6 col-9 col-sm-10 categories m-0 p-0">
+                            <p class="p-0 m-0" style="white-space: nowrap;">Categories <span d><img src="assets/img/category-down-arrow.svg" alt=""></span></p>
+                        </div>
+                        <!-- empty div  -->
+                        <div class="col-md-6 col-3 col-sm-2" style="background-color: white;"></div>
+                    </div>
+                </div>
+                <!-- menu part  -->
+                <div class="col-md-6 col-6 header-menu">
+                    <ul class="header-menu-list">
+                        <li><a href="#">Today Deals</a></li>
+                        <li><a href="offers.html">Offers</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Become a Seller</a></li>
+                        <li><a href="return-refund.html">Retutns & Refunds</a></li>
+                        <li><a href="#">Customer care</a></li>
+                    </ul>
+                </div>
+                <!-- emnpty div  -->
+                <div class="col-md-3 col-3" style="background-color: white;"></div>
+            </div>
         </div>
     </header>
 
-
-    <!-- main content start  -->
-    <main class="pb-4 mt-5">
-        <div class="container checkout-area">
-            <div class="row">
-                <!-- delivery details  -->
-                <div class="col-md-7" style="border: 1px solid #F52E26;">
-                    <div class="row delivery-details">
-                        <div class="col-md-12 delivery-details-heading">
-                            <h3>Delivery to:</h3>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="row d-flex">
-                                <div class="col-md-6 col-6 d-flex justify-content-between">
-                                    <div class="name d-flex justify-content-start">
-                                        <p>Imrul Jewel | <span><a href="index.html"> Home</a></span></p> 
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-6 d-flex justify-content-end align-items-center change">
-                                    <a href="#">Change</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 address">
-                            <p class="m-0"><strong>Address:</strong> Flat #A1, Floor #1, House #25/B, Road #3, Block #C, English Road, Ray shaheb Bazar, Kotwali, Dhaka -1100, Dhaka Sadar Bangladesh.</p>
-                            <p class="m-0"><strong>Mobile:</strong> +880 1900 123 321</p>
-                            <p class="m-0"><strong>Email:</strong> abcde@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="horizontal-line"></div>
-
-                    <!-- store & checkout info  -->
-                    <div class="row">
-                        <div class="col-md-12 order-info">
-                            <div class="row my-3">
-                                <div class="col-md-6 col-6 shop d-flex justify-content-start align-items-center">
-                                    <h5>Shop: The  Shop Name</h5>
-                                    <small class="ms-2"><span><img src="assets/img/vouchar-icon.svg" alt=""></span><a href="#">Get Voucher From Store ></a></small>
-                                </div>
-                                <div class="col-md-6 col-6 subtotal d-flex justify-content-end align-items-center">
-                                    <small>Saved: <span>৳ 0000</span></small>
-                                    <small>Total <span>3</span> Items.</small>
-                                    <p class="m-0">Subtotal: <span>৳ 0000</span></p>
-                                </div>
-                            </div>
-                            <!-- product details  -->
-                            <div class="row">
-                                <div class="col-md-2 col-3">
-                                    <img class="mt-2" src="assets/img/checkout-product.svg" alt="">
-                                </div>
-                                <div class="col-md-10 col-9">
-                                    <div class="row">
-                                        <div class="col-md-12 product-description">
-                                            <p>5pcs Motor Gears Syma Motor Engine Cogwheel Gear For X5HW X5SW X5C X5SC RC Quadcopter Helicopter Drone Part Hudduo</p>
-                                            <p>Variation: Size, Color, ect.</p>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="row">
-                                                <div class="col-md-6 delivery-info">
-                                                    <p>Express Delivery   TK. 00 <br>
-                                                    <span>Delivery on 3 Days - 7 Days</span>
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-6 quantity d-flex justify-content-between">
-                                                    <p>Quantity: <span>1</span></p>
-                                                    <div class="price">
-                                                        <span>-27%</span><span class="ms-2"><del>৳ 00</del></span>
-                                                        <h4>৳ 00</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- product details  -->
-                            <div class="row">
-                                <div class="col-md-2 col-3">
-                                    <img class="mt-2" src="assets/img/checkout-product.svg" alt="">
-                                </div>
-                                <div class="col-md-10 col-9">
-                                    <div class="row">
-                                        <div class="col-md-12 product-description">
-                                            <p>5pcs Motor Gears Syma Motor Engine Cogwheel Gear For X5HW X5SW X5C X5SC RC Quadcopter Helicopter Drone Part Hudduo</p>
-                                            <p>Variation: Size, Color, ect.</p>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="row">
-                                                <div class="col-md-6 delivery-info">
-                                                    <p>Express Delivery   TK. 00 <br>
-                                                    <span>Delivery on 3 Days - 7 Days</span>
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-6 quantity d-flex justify-content-between">
-                                                    <p>Quantity: <span>1</span></p>
-                                                    <div class="price">
-                                                        <span>-27%</span><span class="ms-2"><del>৳ 00</del></span>
-                                                        <h4>৳ 00</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="horizontal-line"></div>
-                        </div>
-                    </div>
-                    <!-- store & checkout info  -->
-                    <div class="row">
-                        <div class="col-md-12 order-info">
-                            <div class="row my-3">
-                                <div class="col-md-6 col-6 shop d-flex justify-content-start align-items-center">
-                                    <h5>Shop: The  Shop Name</h5>
-                                    <small class="ms-2"><span><img src="assets/img/vouchar-icon.svg" alt=""></span><a href="#">Get Voucher From Store ></a></small>
-                                </div>
-                                <div class="col-md-6 col-6 subtotal d-flex justify-content-end align-items-center">
-                                    <small>Saved: <span>৳ 0000</span></small>
-                                    <small>Total <span>3</span> Items.</small>
-                                    <p class="m-0">Subtotal: <span>৳ 0000</span></p>
-                                </div>
-                            </div>
-                            <!-- product details  -->
-                            <div class="row">
-                                <div class="col-md-2 col-3">
-                                    <img class="mt-2" src="assets/img/checkout-product.svg" alt="">
-                                </div>
-                                <div class="col-md-10 col-9">
-                                    <div class="row">
-                                        <div class="col-md-12 product-description">
-                                            <p>5pcs Motor Gears Syma Motor Engine Cogwheel Gear For X5HW X5SW X5C X5SC RC Quadcopter Helicopter Drone Part Hudduo</p>
-                                            <p>Variation: Size, Color, ect.</p>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="row">
-                                                <div class="col-md-6 delivery-info">
-                                                    <p>Express Delivery   TK. 00 <br>
-                                                    <span>Delivery on 3 Days - 7 Days</span>
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-6 quantity d-flex justify-content-between">
-                                                    <p>Quantity: <span>1</span></p>
-                                                    <div class="price">
-                                                        <span>-27%</span><span class="ms-2"><del>৳ 00</del></span>
-                                                        <h4>৳ 00</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- order details  -->
-                <div class="col-md-5" >
-                    <div class="row ms-1 px-1 d-flex justify-content-center align-items-center pt-2 order-details" style="border: 1px solid #F7DF2A;">
-                        <div class="col-md-12 order-details-heading">
-                            <h4>Order details</h4>
-                        </div>
-                        <div class="col-md-12 ms-2 order-info">
-                            <div class="d-flex justify-content-between">
-                                <p>Items Total Amount</p>
-                                <span class="money">৳ 1,000</span>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <p>Stunner Mart coupon</p>
-                                <span>
-                                    <div style="display: flex; align-items: center;">
-                                        <input type="text" placeholder="coupon code" style="height: 20px; width: 100px; border: 1px solid #F7DF2A; padding: 2px;">
-                                        <button style="height: 20px; background-color: #F7DF2A; border: 1px solid #F7DF2A; padding: 0px 5px; margin-top: 0px;">ok</button>
-                                    </div>
-                                </span>
-                                <div>
-                                    <span class="fade-span">-8%</span>
-                                    <span class="money">৳ 80</span>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <p>Store Voucher</p>
-                                <div style="display: flex; align-items: center;">
-                                    <input type="text" placeholder="voucher code" style="height: 20px; width: 100px; border: 1px solid #F7DF2A; padding: 2px;">
-                                    <button style="height: 20px; background-color: #F7DF2A; border: 1px solid #F7DF2A; padding: 0px 5px; margin-top: 0px;">ok</button>
-                                </div>
-                                <div>
-                                    <span class="fade-span">-7%</span>
-                                    <span class="money">৳ 70</span>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <p>Product Discounts</p>
-                                <div>
-                                    <span class="fade-span">-5% </span>
-                                    <span class="money">৳ 50</span>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <p>Delivery Fee</p>
-                                <span class="money">৳70</span>
-                            </div>
-                            <div class="horizontal-line"></div>
-                        </div>
-                        <div class="col-md-12 ms-2">
-                            <div class="d-flex justify-content-between total-payable-heading">
-                                <p>Total Pay amount</p>
-                                <span class="money">৳ 870</span>
-                            </div>
-                            <div class="d-flex flex-column align-items-end vat">
-                                <p>VAT included, where applicable</p>
-                                <p class="money">Total Save: <span>৳ 200</span></p>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-center mb-3">
-                            <div class="col-md-10">
-                                <button class="btn btn-danger w-100">Pay Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
 
 
     <!-- footer start  -->
