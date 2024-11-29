@@ -10,6 +10,12 @@ a {
     color: inherit;
 }
 
+.vertical-line {
+    width: 1px;
+    height: auto;
+    background-color: #E0E0E0;
+}
+
 
 /* =========================HOME PAGE START===================== */
 
