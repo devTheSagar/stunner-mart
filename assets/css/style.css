@@ -194,9 +194,7 @@ a {
 .product-section-img{
     object-fit: contain;
 }
-.for-you{
-    width: 180px;
-}
+
 .for-you-heading{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
