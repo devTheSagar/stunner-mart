@@ -647,6 +647,22 @@ footer ul li{
     width: 505px;
     height: 34px;
 }
+.privacy-policy .privacy-policy-heading p,
+.terms-condition .terms-condition-heading p,
+.return-refund .return-refund-heading p{
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22.32px;
+    color: #42413D;
+}
+.privacy-policy .inner-box-heading{
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16.74px;
+    color: #42413D;
+}
 .privacy-policy h5,
 .terms-condition h5,
 .return-refund h5{
