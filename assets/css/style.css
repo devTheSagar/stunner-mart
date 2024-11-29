@@ -23,15 +23,24 @@ a {
     height: auto;
     background-color: #E0E0E0;
 }
+.vertical-line-2 {
+    width: 10px;
+    height: auto;
+    background-color: #db0e0e;
+}
 
 
 /* =========================HOME PAGE START===================== */
 
 /* header  */
-.header{
+.header {
     font-family: "Almarai", sans-serif;
     background-color: #F7DF2A;
     height: auto;
+    box-shadow: 0 4px 6px #00000040;
+}
+.header .home-header-menu{
+    background-color: #F8F8F8;
 }
 .header .dropdown {
     position: relative;
@@ -63,22 +72,28 @@ a {
 .header .search span{
     font-family: 'Alatsi', sans-serif;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16.64px;
     color: #42413D;
     background-color: #FFFFFF;
 }
+
+.header .search span div span{
+    color: #F52E26;
+}
 .header .search input::placeholder{
     font-family: 'Alatsi', sans-serif;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14.4px;
+    font-size: 14px;
+    line-height: 16.4px;
     color: #F52E2633;
     background-color: #FFFFFF;
 }
 .header .search input{
     border: none;
     box-shadow: none;
+    font-size: 14px;
+    color: #42413D;
 }
 .header .search .search-btn{
     background-color: #FFFFFF;
@@ -117,9 +132,10 @@ a {
     border-bottom-right-radius: 20px;
 }
 .header .header-menu{
+    background-color: #F7DF2A;
     height: 30px;
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 200px;
+    border-bottom-right-radius: 20px;
 }
 .header .header-menu .header-menu-list {
     font-size: 12px;
@@ -134,10 +150,21 @@ a {
     overflow: hidden;
     box-sizing: border-box;
 }
+
 .header .header-menu .header-menu-list li {
     margin: 5px 10px;
     flex: 1 1 auto;
     text-align: center;
+    position: relative; /* Required for dots */
+}
+
+.header .header-menu .header-menu-list li:not(:last-child)::after {
+    content: "•"; /* Adds the dot */
+    position: absolute;
+    right: -10px; /* Adjust position to the right */
+    color: #42413D;
+    font-size: 14px; /* Size of the dot */
+    font-weight: bold;
 }
 
 .header .header-menu .header-menu-list a {
@@ -147,20 +174,39 @@ a {
     display: inline-block;
     transition: font-size 0.6s ease;
 }
+
 .header .header-menu .header-menu-list li a:hover {
     color: #F52E26;
 }
+
+/* Mobile view (remove dots) */
+@media (max-width: 768px) {
+    .header .header-menu .header-menu-list {
+        flex-direction: row; /* Stack items vertically */
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .header .header-menu .header-menu-list li {
+        margin: 5px 0; /* Adjust spacing for stacked items */
+    }
+
+    .header .header-menu .header-menu-list li:not(:last-child)::after {
+        content: ""; /* Removes the dot in mobile view */
+    }
+}
+
 /* for mobile view header  */
 @media (max-width: 768px) {
     .header .categories{
         height: 20px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
     .header .header-menu{
         height: auto;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
     .header .header-menu .header-menu-list {
         font-size: 8px;
