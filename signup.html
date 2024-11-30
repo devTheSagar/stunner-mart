@@ -9,7 +9,9 @@
     <!-- fonts cdn  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Almarai:wght@300;400;700;800&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alatsi&family=Almarai:wght@300;400;700;800&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- bootstrap cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -32,7 +34,8 @@
                     <div class="input-group search">
                         <span class="input-group-text" style="background-color: transparent; border: none;">
                             <a href="#" style="color: black; text-decoration: none;">
-                                <span>Categories </span><span><img src="assets/img/right-arrow.svg" alt=""></span>&nbsp;|
+                                <span>Categories </span><span><img src="assets/img/right-arrow.svg"
+                                        alt=""></span>&nbsp;|
                             </a>
                         </span>
                         <input class="form-control" type="text" placeholder="Search in Stunner Mart">
@@ -42,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-md-3 d-flex justify-content-between align-items-center">
                     <div class="dropdown d-flex flex-row justify-content-center align-items-center">
                         <img class="user-img" src="assets/img/Protrait Photo Sign.svg" alt="">
@@ -58,7 +61,7 @@
                             <a href="signup.html" class="dropdown-item">Sign Up</a>
                         </div>
                     </div>
-                    
+
                     <div>
                         <img src="assets/img/cart.svg" alt="">
                     </div>
@@ -74,85 +77,58 @@
             <div class="row">
                 <div class="col-12 col-md-12 col-sm-12">
                     <!-- signup form  -->
+                    <!-- ============ SIGNUP AREA FOR PC VIEW & FORM ============ -->
                     <form action="">
-                        <div class="row d-flex flex-row gap-3 justify-content-center my-5">
-                            <div class="col-5 col-md-5 col-sm-5 d-flex flex-column">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label for="">Full Name</label>
-                                        <div class="d-flex gap-1">
-                                            <div class="col">
-                                                <input type="text" name="" id="" class="form-control" placeholder="First Name">
-                                            </div>
-                                            <div class="col">
-                                                <input type="text" name="" id="" class="form-control" placeholder="First Name">
-                                            </div>
-                                        </div>
+                        <div class="row justify-content-center g-5 d-none d-md-flex py-5 px-2">
+                            <!-- Left Column -->
+                            <div class="col-md-5">
+                                <label for="full-name" class="form-label">Full Name</label>
+                                <div class="d-flex gap-1 mb-1">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="First Name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last Name">
                                     </div>
                                 </div>
-                                <label for="">Email Or, Phone Number</label>
-                                <input class="form-control" type="text" name="" id="email" placeholder="Please Enter your Email Or, Phone Number">
-
-                                <label for="">One Time Password (OTP) From Email or, Phone Number</label>
+                        
+                                <label for="email" class="form-label">Email or Phone Number</label>
+                                <input type="text" id="email" class="form-control" placeholder="Please Enter your Email or Phone Number">
+                        
+                                <label for="otp" class="form-label">One Time Password (OTP) From Email or Phone Number</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Please Enter your OTP" aria-label="OTP">
+                                    <input type="text" class="form-control" placeholder="Please Enter your OTP" aria-label="OTP" style="border-right: none;">
                                     <span class="input-group-text"><a href="#">Send OTP</a></span>
                                 </div>
-                                
-                                <p class="text-end">Already Have Account?  <span><a href="login.html">Login</a></span>  Now</p>
-
-                                
-                                <div class="col-12 col-md-12 col-sm-3 d-flex justify-content-center align-items-center">
-                                    <a href="" type="submit">
-                                        <img src="assets/img/signup-btn.svg" alt="" class="img">
-                                    </a>
+                        
+                                <div class="text-end mt-2">
+                                    <p>Already have an account? <a href="login.html" class="text-primary">Login Now</a></p>
                                 </div>
-                                <div class="col-12 col-md-12 col-sm-12 d-flex flex-row mt-3 terms-privacy">
-                                    <input type="checkbox" name="" id="">&nbsp;&nbsp;&nbsp;
-                                    <label for="">I agree to <span style="font-size: 12px; line-height: 13.39px;">‘STUNNER MART’</span> <a href="terms-condition.html">Terms of Use</a> and <a href="privacy-policy.html">Privacy Policy</a></label>
+                        
+                                <div class="d-flex justify-content-center align-items-center mt-3">
+                                    <button class="signup-button w-100 mb-1">SIGN IN</button>
+                                </div>
+                        
+                                <div class="d-flex flex-row mt-3 terms-privacy">
+                                    <input type="checkbox" id="terms">&nbsp;&nbsp;&nbsp;
+                                    <label for="terms">I agree to <span style="font-size: 12px;">‘STUNNER MART’</span>
+                                        <a href="terms-condition.html">Terms of Use</a> and <a href="privacy-policy.html">Privacy Policy</a></label>
                                 </div>
                             </div>
-                            <div class="col-5 col-md-5 col-sm-5 d-flex flex-column">
-                                <!-- Date of Birth and Gender Section Side by Side -->
+                        
+                            <!-- Right Column -->
+                            <div class="col-md-5">
                                 <div class="row">
-                                    <!-- Date of Birth Section -->
-                                    <div class="col-md-6">
-                                        <label for="">Date of Birth</label>
-                                        <div class="d-flex gap-1">
+                                    <!-- Date of Birth Fields -->
+                                    <div class="col-md-8">
+                                        <label for="dob" class="form-label">Date of Birth</label>
+                                        <div class="d-flex gap-0 mb-1">
                                             <div class="col-md-3">
                                                 <select class="form-control" name="day" id="day">
                                                     <option value="" disabled selected>Day</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                    <option value="6">6</option>
-                                                    <option value="7">7</option>
-                                                    <option value="8">8</option>
-                                                    <option value="9">9</option>
-                                                    <option value="10">10</option>
-                                                    <option value="11">11</option>
-                                                    <option value="12">12</option>
-                                                    <option value="13">13</option>
-                                                    <option value="14">14</option>
-                                                    <option value="15">15</option>
-                                                    <option value="16">16</option>
-                                                    <option value="17">17</option>
-                                                    <option value="18">18</option>
-                                                    <option value="19">19</option>
-                                                    <option value="20">20</option>
-                                                    <option value="21">21</option>
-                                                    <option value="22">22</option>
-                                                    <option value="23">23</option>
-                                                    <option value="24">24</option>
-                                                    <option value="25">25</option>
-                                                    <option value="26">26</option>
-                                                    <option value="27">27</option>
-                                                    <option value="28">28</option>
-                                                    <option value="29">29</option>
-                                                    <option value="30">30</option>
-                                                    <option value="31">31</option>
                                                 </select>
                                             </div>
                                             <div class="col-md-4">
@@ -161,15 +137,6 @@
                                                     <option value="1">January</option>
                                                     <option value="2">February</option>
                                                     <option value="3">March</option>
-                                                    <option value="4">April</option>
-                                                    <option value="5">May</option>
-                                                    <option value="6">June</option>
-                                                    <option value="7">July</option>
-                                                    <option value="8">August</option>
-                                                    <option value="9">September</option>
-                                                    <option value="10">October</option>
-                                                    <option value="11">November</option>
-                                                    <option value="12">December</option>
                                                 </select>
                                             </div>
                                             <div class="col-md-5">
@@ -178,54 +145,147 @@
                                                     <option value="1990">1990</option>
                                                     <option value="1991">1991</option>
                                                     <option value="1992">1992</option>
-                                                    <option value="1993">1993</option>
                                                 </select>
                                             </div>
                                         </div>
                                     </div>
-
-                                    <!-- Gender Section -->
-                                    <div class="col-md-6">
-                                        <label for="">Gender</label>
-                                        <div class="col">
-                                            <select class="form-control" name="gender" id="gender">
-                                                <option value="" disabled selected>Select</option>
-                                                <option value="male">Male</option>
-                                                <option value="female">Female</option>
-                                                <option value="other">Other</option>
-                                            </select>
-                                        </div>
+                        
+                                    <!-- Gender Field -->
+                                    <div class="col-md-4">
+                                        <label for="gender" class="form-label">Gender</label>
+                                        <select class="form-control" name="gender" id="gender">
+                                            <option value="" disabled selected>Select</option>
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                            <option value="other">Other</option>
+                                        </select>
                                     </div>
                                 </div>
-
-                            
-                                <!-- Password Section -->
-                                <label for="">Password</label>
+                        
+                                <label for="password" class="form-label mt-0">Password</label>
                                 <input type="password" class="form-control" name="password" id="password" placeholder="Please Enter Password">
-                            
-                                <label for="">Re-Enter Password</label>
-                                <input type="password" class="form-control" name="repassword" id="repassword" placeholder="Please Re-Enter Password">
-                            
-                                <!-- Social Sign-In Section -->
-                                <div class="w-100 mt-4 signin-with-social">
+                        
+                                <label for="repassword" class="form-label mt-0">Re-Enter Password</label>
+                                <input type="password" class="form-control" name="repassword" id="repassword" placeholder="Re-enter Password">
+                        
+                                <div class="w-100 mt-2 signin-with-social mt-4">
                                     <div class="d-flex justify-content-center align-items-center">
-                                        <h5>Or, login with</h5>
+                                        <h5>Or, sign in with</h5>
                                     </div>
                                     <div class="row d-flex justify-content-center align-items-center text-center m-0 p-2">
-                                        <div class="col-5 col-md-4 col-sm-3">
-                                            <a href="#"><img src="assets/img/login-with-facebook.svg" alt="Facebook Login"></a>
+                                        <div class="col-5 m-0 p-0">
+                                            <a href="#"><img src="assets/img/login-with-facebook.svg" class="img-fluid signup-logo" alt="Facebook Login"></a>
                                         </div>
-                                        <div
-                                            class="col-2 col-md-4 col-sm-3 d-flex justify-content-center align-items-center">
-                                            <h5 class="mb-0">or</h5>
+                                        <div class="col-2 m-0 p-0 d-flex justify-content-center align-items-center">
+                                            <p class="mb-0 m-0" style="font-size: 16px; line-height: 11.16px;">or</p>
                                         </div>
-                                        <div class="col-5 col-md-4 col-sm-3">
-                                            <a href="#"><img src="assets/img/login-with-google.svg" alt="Google Login"></a>
+                                        <div class="col-5 m-0 p-0">
+                                            <a href="#"><img src="assets/img/login-with-google.svg" class="signup-logo" alt="Google Login"></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
+                        </div>
+                        
+                    </form>
+
+
+
+
+
+                    <!-- ============ SIGNUP AREA FOR MOBILE VIEW & FORM ============ -->
+                    <form action="">
+                        <div class="row justify-content-center d-md-none">
+                            <div class="col-12 mb-3">
+                                <label for="full-name-mobile" class="form-label">Full Name</label>
+                                <div class="d-flex gap-1">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="First Name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last Name">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="email-mobile" class="form-label">Email or Phone Number</label>
+                                <input type="text" id="email-mobile" class="form-control"
+                                    placeholder="Please Enter your Email or Phone Number">
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="otp-mobile" class="form-label">One Time Password (OTP)</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Enter OTP" aria-label="OTP">
+                                    <span class="input-group-text"><a href="#">Send OTP</a></span>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="dob-mobile" class="form-label">Date of Birth</label>
+                                <div class="d-flex gap-1">
+                                    <div class="col-4">
+                                        <select class="form-control" name="day" id="day-mobile">
+                                            <option value="" disabled selected>Day</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <select class="form-control" name="month" id="month-mobile">
+                                            <option value="" disabled selected>Month</option>
+                                            <option value="1">Jan</option>
+                                            <option value="2">Feb</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4">
+                                        <select class="form-control" name="year" id="year-mobile">
+                                            <option value="" disabled selected>Year</option>
+                                            <option value="1990">1990</option>
+                                            <option value="1991">1991</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="gender-mobile" class="form-label">Gender</label>
+                                <select class="form-control" name="gender" id="gender-mobile">
+                                    <option value="" disabled selected>Select</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="password-mobile" class="form-label">Password</label>
+                                <input type="password" class="form-control" name="password" id="password-mobile"
+                                    placeholder="Enter Password">
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="repassword-mobile" class="form-label">Re-enter Password</label>
+                                <input type="password" class="form-control" name="repassword" id="repassword-mobile"
+                                    placeholder="Re-enter Password">
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <div class="text-center">
+                                    <a href="#" class="signup-btn">
+                                        <img src="assets/img/signup-btn.svg" alt="Sign Up" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <p>By Signing up, you agree to our <a href="#">Terms of Use</a> and <a
+                                            href="#">Privacy Policy</a></p>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -304,7 +364,8 @@
                                                         href="#">info@stunnermart.com</a></li>
                                             </ul>
                                         </div>
-                                        <div class="col-6 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                                        <div
+                                            class="col-6 col-md-6 d-flex flex-column justify-content-center align-items-center">
                                             <h5 class="text-center">Verified By</h5>
                                             <div class="div">
                                                 <img src="assets/img/sslcommerz.svg" alt="sslcommerz logo">
@@ -320,49 +381,49 @@
                     <div class="row d-flex justify-content-center align-items-center">
                         <h5 class="text-center">Payment Method</h5>
                         <!-- <div class="row d-flex justify-content-center mb-1"> -->
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
-                            
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+                        <div class="col-2 p-1 bg-white" style="height: 35px; width: 16%; border-radius: 3px;"></div>
+
                         <!-- </div> -->
                     </div>
                     <div class="row mt-4 d-flex justify-content-end">

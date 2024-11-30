@@ -492,6 +492,11 @@ footer ul li{
     height: 100%;         /* Ensure image fills the full height of the parent */
     object-fit: cover;    /* Make sure the image covers the container without distortion */
 }
+.signup-area .signup-logo {
+    width: 100%;          /* Ensure image fills the full width of the parent */
+    height: 100%;         /* Ensure image fills the full height of the parent */
+    object-fit: cover;    /* Make sure the image covers the container without distortion */
+}
 
 .login-area .login-button{
     width: 100%;
@@ -506,6 +511,19 @@ footer ul li{
 .login-area .login-button:hover{
     background-color: #ffe100;
     color: #3d3c38;
+}
+.signup-area .signup-button{
+    width: 100%;
+    background-color: #04C700;
+    color: white;
+    box-shadow: inset 0px 0px 10px 0px #FFFFFF;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Adds a transition effect */
+}
+.signup-area .signup-button:hover{
+    background-color: #0ee70a;
 }
 .login-area input[type="text"],
 .login-area input[type="password"],
