@@ -917,13 +917,15 @@ footer ul li{
     font-weight: 400;
     color: #42413D;
 }
-.blog .top-selling-card .date{
+.blog .top-selling-card .date,
+.blog .blog-post .date{
     font-size: 12px;
     line-height: 13.39px;
     font-weight: 400;
     color: #F52E26;
 }
-.blog .top-selling-card .read-more{
+.blog .top-selling-card .read-more,
+.blog .blog-post .read-more{
     font-size: 12px;
     line-height: 13.39px;
     font-weight: 400;
