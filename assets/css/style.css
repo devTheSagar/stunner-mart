@@ -893,6 +893,19 @@ footer ul li{
     font-weight: 400;
     color: #42413D;
 }
+.blog .card .post-content{
+    font-size: 14px;
+    line-height: 19px;
+    color: #42413D;
+    font-weight: 400;
+}
+.blog .card .post-header{
+    font-size: 20px;
+    line-height: 16.16px;
+    color: #F7DF2A;
+    font-weight: 800;
+}
+
 .blog .blog-post h4{
     font-size: 20px;
     line-height: 22.32px;
