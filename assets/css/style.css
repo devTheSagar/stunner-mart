@@ -484,7 +484,28 @@ footer ul li{
     border: 1px solid #D8D8D8;
     margin-bottom: 150px;
     font-family: "Almarai", sans-serif;
-    font-weight: 700;
+    background-color: #F5F5F5;
+    /* font-weight: 700; */
+}
+.login-area .login-logo {
+    width: 100%;          /* Ensure image fills the full width of the parent */
+    height: 100%;         /* Ensure image fills the full height of the parent */
+    object-fit: cover;    /* Make sure the image covers the container without distortion */
+}
+
+.login-area .login-button{
+    width: 100%;
+    background-color: #F7DF2A;
+    color: #42413D;
+    box-shadow: inset 0px 0px 10px 0px #FFFFFF;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Adds a transition effect */
+}
+.login-area .login-button:hover{
+    background-color: #ffe100;
+    color: #3d3c38;
 }
 .login-area input[type="text"],
 .login-area input[type="password"],
@@ -492,14 +513,13 @@ footer ul li{
 .signup-area input[type="password"],
 .signup-area select,
 .signup-area .input-group .input-group-text{
-    /* width: 350px; */
     height: 40px;
     border-radius: 10px;
     color: #42413D;
     border: 1px solid #D8D8D8;
     margin-bottom: 10px;
-    
     background-color: #FFFFFF;
+    font-size: 14px;
 }
 #day, #month, #year{
     padding-left: 5px;
@@ -512,14 +532,14 @@ footer ul li{
 }
 .login-area label,
 .signup-area label{
-    font-size: 12px;
+    font-size: 13px;
     line-height: 13.39px;
     color: #42413D;
     margin-bottom: 10px;
 }
 .login-area p,
 .signup-area p{
-    font-size: 10px;
+    font-size: 11px;
     line-height: 11.16px;
     color: #42413D;
     margin-top: 10px;
@@ -533,7 +553,7 @@ footer ul li{
 .signup-area input::placeholder,
 .form-control, #day, #month, #year, #gender{
     color: #D8D8D8;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 13.39px;
 }
 .signup-area .input-group .input-group-text{
@@ -589,6 +609,7 @@ footer ul li{
 .login-area img,
 .signup-area img{
     max-width: 100%;
+    /* width: auto; */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure the image does not cause overflow */
 }
