@@ -1,0 +1,5 @@
+1. home page -> follow button (fb, insta etc) add korte hobe. navbar sticky korte hobe.
+
+2. store page -> profile picture add korte hobe.
+
+3. blog page -> majher slider add korte hobe.
