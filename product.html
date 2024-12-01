@@ -74,7 +74,7 @@
     <!-- main content start  -->
     <main class="pb-4 pt-5" style="background-color: #F8F8F8;">
         <div class="container product-area">
-            <div class="row gx-5 m-0" style="border: 1px solid red;overflow-x: hidden;">
+            <div class="row gx-5 m-0">
                 <!-- product viewer slider -->
                 <div class="col-md-6">
                     <div class="row bg-white">
@@ -161,8 +161,9 @@
                                         <span class="prev-price-lebel">Previous Price</span><span class="ms-3"><del>৳ 1,390</del></span>
                                     </div>
                                     <div class="d-flex flex-column">
-                                        <div class="col-md-6">
-                                            <button class="btn btn-danger">Limited Stock</button>
+                                        <div class="col-md-6 limited-stock-btn w-20 text-white text-center">
+                                            Limited Stock
+                                            <!-- <button class="limited-stock-btn btn btn-sm w-100 text-white">Limited Stock</button> -->
                                         </div>
                                         <span class="items-left mt-2">Only 12 items left</span>
                                     </div>
@@ -177,13 +178,13 @@
                                                 type="button">+</button>
                                         </div>
                                     </div>
+                                    <!-- add to cart & buy naow button  -->
                                     <div class="row mt-2">
                                         <div class="col-md-6 d-flex justify-content-center align-items-center">
-                                            <a href="#"><img src="assets/img/add-to-cart-btn.svg" alt=""
-                                                    class="w-100 h-100 img-fluid"></a>
+                                            <button class="add-to-cart-btn btn btn-sm w-100 text-white">Add to Cart</button>
                                         </div>
                                         <div class="col-md-6 d-flex justify-content-center align-items-center">
-                                            <a href="#"><img src="assets/img/buy -now-btn.svg" alt=""></a>
+                                            <button class="buy-now-btn btn btn-sm w-100 text-white">Buy Now</button>
                                         </div>
                                     </div>
                                     <div class="row mb-2">
@@ -324,7 +325,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-2 gx-5 m-0" style="border: 1px solid red;">
+            <div class="row mt-2 gx-5 m-0">
                 <!-- product-packging-rating  -->
                 <div class="col-md-9 col-sm-8">
                     <!--product page menu  -->

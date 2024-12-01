@@ -1148,6 +1148,29 @@ footer ul li{
     font-size: 11px;
     line-height: 11.16px;
   }
+
+.product-area .add-to-cart-btn{
+    border-radius: 17px;
+    background-color: #F52E26;
+}
+.product-area .add-to-cart-btn:hover{
+    border: 1px solid #00D1FF;
+    box-shadow: 0 4px 12px rgba(0, 209, 255, 0.7);
+}
+.product-area .buy-now-btn{
+    border-radius: 17px;
+    background-color: #F7DF2A;
+}
+.product-area .buy-now-btn:hover{
+    border: 1px solid #00D1FF;
+    box-shadow: 0 4px 12px rgba(0, 209, 255, 0.7);
+}
+.product-area .limited-stock-btn{
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 400;
+    background-color: #F52E26;
+}
 .product-area .quantity label{
     font-family: "Tajawal", sans-serif;
     font-weight: 300;
