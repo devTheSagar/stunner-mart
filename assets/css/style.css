@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Alatsi', sans-serif;
-    /* background-color: #F8F8F8; */
 }
 
 .card {
@@ -12,12 +11,10 @@
 .card img{
     border-radius: 0 !important;
 }
-
 a {
     text-decoration: none;
     color: inherit;
 }
-
 .vertical-line {
     width: 1px;
     height: auto;
@@ -30,7 +27,7 @@ a {
 }
 
 
-/* =========================HOME PAGE START===================== */
+/* ==========================================HOME PAGE START====================================== */
 
 /* header  */
 .header {
@@ -88,7 +85,6 @@ a {
     color: #42413D;
     background-color: #FFFFFF;
 }
-
 .header .search span div span{
     color: #F52E26;
 }
@@ -161,23 +157,20 @@ a {
     overflow: hidden;
     box-sizing: border-box;
 }
-
 .header .header-menu .header-menu-list li {
     margin: 5px 10px;
     flex: 1 1 auto;
     text-align: center;
-    position: relative; /* Required for dots */
+    position: relative;
 }
-
 .header .header-menu .header-menu-list li:not(:last-child)::after {
-    content: "•"; /* Adds the dot */
+    content: "•";
     position: absolute;
-    right: -10px; /* Adjust position to the right */
+    right: -10px;
     color: #42413D;
-    font-size: 14px; /* Size of the dot */
+    font-size: 14px;
     font-weight: bold;
 }
-
 .header .header-menu .header-menu-list a {
     white-space: nowrap;
     text-decoration: none;
@@ -185,7 +178,6 @@ a {
     display: inline-block;
     transition: font-size 0.6s ease;
 }
-
 .header .header-menu .header-menu-list li a:hover {
     color: #F52E26;
 }
@@ -193,17 +185,17 @@ a {
 /* Mobile view (remove dots) */
 @media (max-width: 768px) {
     .header .header-menu .header-menu-list {
-        flex-direction: row; /* Stack items vertically */
+        flex-direction: row;
         justify-content: center;
         align-items: flex-start;
     }
 
     .header .header-menu .header-menu-list li {
-        margin: 5px 0; /* Adjust spacing for stacked items */
+        margin: 5px 0;
     }
 
     .header .header-menu .header-menu-list li:not(:last-child)::after {
-        content: ""; /* Removes the dot in mobile view */
+        content: "";
     }
 }
 
@@ -249,7 +241,7 @@ a {
 }
 .product-section{
     width: 65%;
-    margin: 0 auto;  /* Center the container */
+    margin: 0 auto;
     padding: 0;
     /* border: 2px solid yellow; */
     /* object-fit: cover; */
@@ -300,7 +292,6 @@ a {
     margin-left: 20px;
 }
 
-
 /* for all product cards  */
 .product-card img{
     width: 180px;
@@ -338,8 +329,6 @@ a {
     white-space: normal;
     word-wrap: break-word;
 }
-
-
 
 
 /* Hide dropdown menu initially */
@@ -409,39 +398,36 @@ a {
     
 }
 
-/* =========================HOMEPAGE END===================== */
+/* ==============================================HOMEPAGE END=================================== */
 
 
 
-/* =======================FOLLOW ICONS START======================== */
+/* =========================================FOLLOW ICONS START=================================== */
 .follow-icons ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 .follow-icons ul li a.colored {
     top: 10px;
     left: 0;
     z-index: 2;
 }
-
 .follow-icons ul li a.gray {
     top: 10px;
     left: 15px;
     z-index: 1;
 }
-
 .follow-icons ul li img {
     width: 31px;
     height: 31px;
     border-radius: 50%;
 }
-/* =======================FOLLOW ICONS END======================== */
+/* =======================================FOLLOW ICONS END====================================== */
 
 
 
-/* =======================================FOOOTER START=========================== */
+/* ==================================================FOOOTER START================================== */
 footer{
     background-color: #F4F4F4;
 }
@@ -463,21 +449,24 @@ footer ul li{
     padding: 3px;
     font-family: "Almarai", sans-serif;
 }
+footer ul li a:hover{
+    color: #F52E26;
+}
 .contact-us ul li{
     font-weight: 1px;
 }
 .mobile-apps .app-links {
-    display: flex; /* Align child elements horizontally */
-    gap: 10px; /* Space between the ul elements */
+    display: flex;
+    gap: 10px;
     justify-content: space-between;
 }
 .mobile-apps ul {
-    list-style: none; /* Remove bullets */
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .mobile-apps ul li {
-    display: inline-block; /* Ensure li contents are inline */
+    display: inline-block;
 }
 .social-links{
     display: flex;
@@ -499,14 +488,14 @@ footer ul li{
     /* font-weight: 700; */
 }
 .login-area .login-logo {
-    width: 100%;          /* Ensure image fills the full width of the parent */
-    height: 100%;         /* Ensure image fills the full height of the parent */
-    object-fit: cover;    /* Make sure the image covers the container without distortion */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .signup-area .signup-logo {
-    width: 100%;          /* Ensure image fills the full width of the parent */
-    height: 100%;         /* Ensure image fills the full height of the parent */
-    object-fit: cover;    /* Make sure the image covers the container without distortion */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .login-area .login-button{
@@ -517,7 +506,7 @@ footer ul li{
     height: 40px;
     border: none;
     border-radius: 10px;
-    transition: background-color 0.3s ease; /* Adds a transition effect */
+    transition: background-color 0.3s ease;
 }
 .login-area .login-button:hover{
     background-color: #ffe100;
@@ -531,7 +520,7 @@ footer ul li{
     height: 40px;
     border: none;
     border-radius: 10px;
-    transition: background-color 0.3s ease; /* Adds a transition effect */
+    transition: background-color 0.3s ease;
 }
 .signup-area .signup-button:hover{
     background-color: #0ee70a;
@@ -638,9 +627,8 @@ footer ul li{
 .login-area img,
 .signup-area img{
     max-width: 100%;
-    /* width: auto; */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure the image does not cause overflow */
+    height: auto;
+    display: block;
 }
 .signup-area .terms-privacy label a{
     color: #3787FF;
@@ -678,7 +666,7 @@ footer ul li{
     width: 505px;
     height: 34px;
 }
-/* ===============================HOW TO BUY END================================= */
+/* ==============================================HOW TO BUY END========================================= */
 
 
 /* =========================PRIVACY POLICY | TERMS CONDITION | RETURN REFUND START========================== */
@@ -746,7 +734,7 @@ footer ul li{
 /* =========================PRIVACY POLICY | TERMS CONDITION | RETURN REFUND ENDS========================== */
 
 
-/* =============================ABOUT US START========================= */
+/* ========================================ABOUT US START====================================== */
 .about-us{
     font-family: "Almarai", sans-serif;
 }
@@ -763,9 +751,9 @@ footer ul li{
     list-style: none;
     font-size: 14px;
 }
-/* =============================ABOUT US END========================= */
+/* ===========================================ABOUT US END========================================= */
 
-/* ===================================CONTACT US START============================= */
+/* ============================================CONTACT US START====================================== */
 .contact-us{
     font-family: "Almarai", sans-serif;
 }
@@ -808,10 +796,10 @@ footer ul li{
     list-style: none;
     font-size: 14px;
 }
-/* ===================================CONTACT US END============================== */
+/* =========================================CONTACT US END========================================= */
 
 
-/* ====================================OFFERS START======================= */
+/* ================================================OFFERS START=================================== */
 .offers{
     font-family: "Almarai", sans-serif;
 }
@@ -825,10 +813,10 @@ footer ul li{
     font-family: "Lilita One", sans-serif;
     color: white;
 }
-/* ====================================OFFERS END======================= */
+/* ====================================================OFFERS END================================== */
 
 
-/* ==================================STORE START========================== */
+/* ================================================STORE START====================================== */
 .store{
     font-family: "Almarai", sans-serif;
 }
@@ -885,10 +873,10 @@ footer ul li{
     line-height: 10.24px;
     color: #A0A0A0;
 }
-/* ==================================STORE END========================== */
+/* =============================================STORE END=================================== */
 
 
-/* =========================BLOG START====================== */
+/* ==========================================BLOG START======================================= */
 .blog{
     font-family: "Almarai", sans-serif;
 }
@@ -994,10 +982,10 @@ footer ul li{
     }
 }
 
-/* =========================BLOG END====================== */
+/* ===============================================BLOG END=========================================== */
 
 
-/* =========================NAVBAR 2 START===================== */
+/* ===========================================NAVBAR 2 START========================================== */
 .custom-navbar{
     font-family: "Almarai", sans-serif;
     background-color: #F7DF2A;
@@ -1024,11 +1012,9 @@ footer ul li{
     border-radius: 4px;
     z-index: 1000;
 }
-
 .custom-navbar .dropdown .login-dropdown-menu .dropdown-item:hover {
     background-color: #f8f9fa;
 }
-
 .custom-navbar .search{
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -1070,11 +1056,11 @@ footer ul li{
     line-height: 13.39px;
     color: #42413D;
 }
-/* =========================NAVBAR 2 START===================== */
+/* ================================================NAVBAR 2 START================================ */
 
 
 
-/* ============================PRODUCT PAGE START=========================== */
+/* =======================================PRODUCT PAGE START========================================== */
 .product-area{
     font-family: "Almarai", sans-serif;
 }
@@ -1114,52 +1100,51 @@ footer ul li{
     font-size: 12px;
     line-height: 12px;
     font-weight: bold;
-  }
+}
 .product-area .product-rating div:first-of-type span:last-of-type {
     font-family: "Tajawal", sans-serif;
     font-weight: 700;
     color: #42413D;
     font-size: 12px;
     line-height: 12px;
-  }
+}
 .product-area .product-rating div:last-of-type span {
     font-family: "Tajawal", sans-serif;
     font-weight: 900;
     color: #42413D;
     font-size: 13px;
     line-height: 13.2px;
-  }
+}
 .product-area .price {
     font-weight: 700;
     color: #F7DF2A;
     font-size: 32px;
     line-height: 35.71px;
-  }
+}
 .product-area .discount  {
     font-weight: 700;
     color: #03A400;
     font-size: 12px;
     line-height: 13.39px;
-  }
+}
 .product-area .prev-price-lebel  {
     font-weight: 400;
     color: #42413D;
     font-size: 10px;
     line-height: 8.93px;
-  }
+}
 .product-area .prev-price-amount  {
     font-weight: 700;
     color: #42413D;
     font-size: 11px;
     line-height: 11.16px;
-  }
+}
 .product-area .items-left  {
     font-weight: 400;
     color: #F52E26;
     font-size: 11px;
     line-height: 11.16px;
-  }
-
+}
 .product-area .add-to-cart-btn{
     border-radius: 17px;
     background-color: #F52E26;
@@ -1252,7 +1237,6 @@ footer ul li{
 .product-area .shipping-info .delivery-type .delivery-date span{
     font-weight: 700;
 }
-
 .product-area .service-info .services p{
     font-weight: 700;
     font-size: 11px;
@@ -1386,28 +1370,28 @@ footer ul li{
     gap: 5px;
     overflow-x: scroll;
     scroll-behavior: smooth;
-  }
+}
 
-  .thumbnail.active {
+.thumbnail.active {
     border: 2px solid blue;
-  }
+}
 
-  .thumbnail {
+.thumbnail {
     transition: border 0.3s ease;
-  }
+}
 
-  .thumbnail:hover {
+.thumbnail:hover {
     border: 2px solid gray;
-  }
+}
 
-  #main-image-container {
+#main-image-container {
     text-align: center;
-  }
-/* ============================PRODUCT PAGE END=========================== */
+}
+/* =========================================PRODUCT PAGE END==================================== */
 
 
 
-/* ==================================CART PAGE START============================== */
+/* ==========================================CART PAGE START=========================================== */
 .cart-area{
     font-family: "Almarai", sans-serif;
 }
@@ -1530,11 +1514,11 @@ footer ul li{
     color: #42413D;
 }
 
-/* ==================================CART PAGE START============================== */
+/* ========================================CART PAGE START========================================= */
 
 
 
-/* =====================================CHECKOUT PAGE START============================ */
+/* ===========================================CHECKOUT PAGE START====================================== */
 .horizontal-line {
     height: 3px;
     background-color: #FFFFFF;
@@ -1700,7 +1684,5 @@ footer ul li{
     font-weight: 700;
     color: #42413D;
 }
-
-
 
 /* =====================================CHECKOUT PAGE START============================ */
