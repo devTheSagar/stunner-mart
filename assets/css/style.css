@@ -42,6 +42,17 @@ a {
 .header .home-header-menu{
     background-color: #F8F8F8;
 }
+.header .home-header-menu .dropdown-menu li{
+    height: 40px;
+    display: flex;
+    gap: 50px;
+    justify-content: start;
+    align-items: center;
+}
+.header .home-header-menu .dropdown-menu li:hover,
+.header .home-header-menu .dropdown-menu a:hover{
+    color: #F52E26;
+}
 .header .dropdown {
     position: relative;
     display: inline-block;
